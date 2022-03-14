@@ -80,7 +80,7 @@ public class MechantWordController : MonoBehaviour
         if (go.tag == "projectile")
         {
             projectileController pc = go.GetComponent<projectileController>();
-            if (pc.character == word[index])
+            if (char.ToLower(pc.character) == char.ToLower(word[index]))
             {
                 index++;
 
