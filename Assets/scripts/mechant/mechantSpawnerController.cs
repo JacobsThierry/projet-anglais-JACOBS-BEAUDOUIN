@@ -29,7 +29,21 @@ public class mechantSpawnerController : MonoBehaviour
         if (_timer < 0)
         {
             _timer = timer;
-            GameObject mcht = Instantiate(mechantQuestion);
+            GameObject mcht;
+
+
+            if (Random.Range(0, 2) < 1)
+            {
+                mcht = Instantiate(mechantQuestion);
+            }
+            else
+            {
+                mcht = Instantiate(mechant);
+            }
+
+
+
+
             mcht.transform.position = transform.position + new Vector3(0, Random.Range(-spawnRange, spawnRange), 0);
         }
 
