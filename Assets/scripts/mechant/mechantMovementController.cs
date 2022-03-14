@@ -18,9 +18,5 @@ public class mechantMovementController : MonoBehaviour
         transform.position -= new Vector3(speed, 0, 0);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        transform.GetChild(0).GetComponent<mechantWordController>().hit(other); //C'est giga moche ça btw
-    }
 
 }

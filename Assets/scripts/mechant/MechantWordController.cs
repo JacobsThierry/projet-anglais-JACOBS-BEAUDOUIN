@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using QuickPool;
 
-public class mechantWordController : MonoBehaviour
+public class MechantWordController : MonoBehaviour
 {
 
-    private TMPro.TextMeshPro textMeshPro;
+    protected TMPro.TextMeshPro textMeshPro;
 
     public string word;
     public int index
@@ -20,13 +21,21 @@ public class mechantWordController : MonoBehaviour
     }
 
 
-    private async void updateGraphics()
+    protected void getTextMeshPro()
     {
-
         if (textMeshPro == null)
         {
-            textMeshPro = GetComponent<TMPro.TextMeshPro>();
+            textMeshPro = transform.GetChild(0).GetComponent<TMPro.TextMeshPro>();
         }
+    }
+
+
+    protected virtual void updateGraphics()
+    {
+
+        Debug.Log("WordController update");
+
+        getTextMeshPro();
 
         textMeshPro.richText = true;
 
@@ -59,29 +68,34 @@ public class mechantWordController : MonoBehaviour
     }
 
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        hit(other);
+    }
 
-    public void hit(Collider2D other) //voir commentaire dans mechantMovementController dans ontriggerenter2D
+
+    public void hit(Collider2D other)
     {
         GameObject go = other.gameObject;
-
-
         if (go.tag == "projectile")
         {
-
-
             projectileController pc = go.GetComponent<projectileController>();
             if (pc.character == word[index])
             {
                 index++;
 
             }
-            Destroy(go);
+            go.Despawn();
+
+            if (index == word.Length)
+            {
+                Destroy(this.gameObject);
+            }
+
+            updateGraphics();
         }
 
-        if (index == word.Length)
-        {
-            Destroy(this.transform.parent.gameObject);
-        }
+
     }
 
     private void OnDestroy()

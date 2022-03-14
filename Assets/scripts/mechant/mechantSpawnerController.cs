@@ -7,9 +7,13 @@ public class mechantSpawnerController : MonoBehaviour
 
     public GameObject mechant;
 
+    public GameObject mechantQuestion;
+
     public float timer;
 
     private float _timer;
+
+    public float spawnRange;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +29,8 @@ public class mechantSpawnerController : MonoBehaviour
         if (_timer < 0)
         {
             _timer = timer;
-            GameObject mcht = Instantiate(mechant);
-            mcht.transform.position = transform.position + new Vector3(0, Random.Range(-2, 2), 0);
+            GameObject mcht = Instantiate(mechantQuestion);
+            mcht.transform.position = transform.position + new Vector3(0, Random.Range(-spawnRange, spawnRange), 0);
         }
 
     }

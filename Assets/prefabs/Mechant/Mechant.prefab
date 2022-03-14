@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 2491730551398887115}
   - component: {fileID: 2491730551398887112}
   - component: {fileID: 2491730551398887113}
-  - component: {fileID: 2491730551398887109}
-  - component: {fileID: 2491730551398887114}
+  - component: {fileID: 1412383433656706481}
+  - component: {fileID: 7729644836134460096}
+  - component: {fileID: 143764799183414294}
   m_Layer: 0
   m_Name: Mechant
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2491730551398887118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.89, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2491730551589672897}
@@ -100,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.02
---- !u!50 &2491730551398887109
+--- !u!50 &1412383433656706481
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -121,8 +122,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &2491730551398887114
-CircleCollider2D:
+--- !u!70 &7729644836134460096
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -135,8 +136,21 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
+  m_Size: {x: 1, y: 1}
+  m_Direction: 0
+--- !u!114 &143764799183414294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2491730551398887118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea4838aaba46494a932e2459dc5b096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  word: 
 --- !u!1 &2491730551589672902
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +160,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2491730551589672897}
-  - component: {fileID: 2491730551589672896}
   - component: {fileID: 2491730551589672898}
   - component: {fileID: 2491730551589672899}
   m_Layer: 0
@@ -175,19 +188,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2491730551589672896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2491730551589672902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ea4838aaba46494a932e2459dc5b096, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  word: 
 --- !u!23 &2491730551589672898
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -1.55, z: 0, w: 0}
+  m_margin: {x: 0, y: -1.55, z: 0, w: 3.0641985}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
