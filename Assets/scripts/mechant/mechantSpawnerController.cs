@@ -18,7 +18,7 @@ public class mechantSpawnerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _timer = timer;
+        _timer = timer / 3; //On divise par 3 comme ça le premeir spawn est plus rapide
     }
 
     // Update is called once per frame

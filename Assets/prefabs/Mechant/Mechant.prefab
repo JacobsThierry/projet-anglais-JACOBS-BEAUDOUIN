@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2491730551398887115}
   - component: {fileID: 2491730551398887112}
-  - component: {fileID: 2491730551398887113}
   - component: {fileID: 1412383433656706481}
   - component: {fileID: 7729644836134460096}
   - component: {fileID: 143764799183414294}
+  - component: {fileID: 2170049321966099724}
+  - component: {fileID: 6995574583236200200}
   m_Layer: 0
   m_Name: Mechant
   m_TagString: Untagged
@@ -88,19 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2491730551398887113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2491730551398887118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86b3f6e017d711b49a0c118e01470b50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.02
 --- !u!50 &1412383433656706481
 Rigidbody2D:
   serializedVersion: 4
@@ -151,6 +139,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: 
+--- !u!114 &2170049321966099724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2491730551398887118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bb7b43f0095cd42ade6cb40e101bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.05
+--- !u!114 &6995574583236200200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2491730551398887118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6f1dab095a7f1f45913d34acd994385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cosChance: 0.5
 --- !u!1 &2491730551589672902
 GameObject:
   m_ObjectHideFlags: 0

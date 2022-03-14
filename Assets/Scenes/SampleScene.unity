@@ -3644,7 +3644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b71dff219dfe1b439cedc02190b6c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mechant: {fileID: 2491730551398887118, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
+  mechant: {fileID: 8613216410929548115, guid: bcaa1ccdbfbf1a34fa4e6db3894d58aa, type: 3}
   mechantQuestion: {fileID: 1905078896928975625, guid: edf1046d5ef167741a3cf7c29dd7671f, type: 3}
   timer: 5
   spawnRange: 3.5

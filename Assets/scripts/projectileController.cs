@@ -5,6 +5,7 @@ using UnityEngine;
 public class projectileController : MonoBehaviour
 {
 
+    //TODO : https://www.youtube.com/watch?v=y982Gb00dho
     private TMPro.TextMeshPro textMeshPro;
 
     private char _character;

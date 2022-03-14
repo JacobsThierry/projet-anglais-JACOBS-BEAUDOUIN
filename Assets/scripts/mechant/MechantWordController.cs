@@ -6,6 +6,8 @@ using QuickPool;
 public class MechantWordController : MonoBehaviour
 {
 
+
+
     protected TMPro.TextMeshPro textMeshPro;
 
     public string word;
