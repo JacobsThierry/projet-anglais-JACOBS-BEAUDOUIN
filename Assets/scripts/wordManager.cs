@@ -15,6 +15,7 @@ public class wordManager
 
     public static string getWord()
     {
+
         return words[Random.Range(0, words.Length)];
     }
 
