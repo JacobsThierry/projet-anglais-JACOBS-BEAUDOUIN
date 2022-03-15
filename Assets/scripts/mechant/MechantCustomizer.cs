@@ -10,7 +10,7 @@ public class MechantCustomizer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Random.Range(0, cosChance) > 0.5f)
+        if (Random.Range(0, 1) < cosChance)
         {
             gameObject.AddComponent(typeof(MechantMovementControllerCos));
         }
