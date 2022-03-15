@@ -35,7 +35,6 @@ public class MechantWordController : MonoBehaviour
     protected virtual void updateGraphics()
     {
 
-        Debug.Log("WordController update");
 
         getTextMeshPro();
 
@@ -103,6 +102,7 @@ public class MechantWordController : MonoBehaviour
     private void OnDestroy()
     {
         Debug.Log("riiip");
+        scoreManager.score += 1;
     }
 
     // Update is called once per frame
