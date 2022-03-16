@@ -12,7 +12,6 @@ public class JsonLoader{
         synonymes.dico = JsonUtility.FromJson<Dictionary<string, Dictionary< string,List< List<string> > > >>(text);
         Debug.Log(synonymes.dico["after"]["definition"][0]);
         
-
     }
 
     public string getCommonWords(){
