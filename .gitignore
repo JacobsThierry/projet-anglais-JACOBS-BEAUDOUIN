@@ -89,13 +89,6 @@ Packages/manifest.json
 
 #Autre
 ProjectSettings/boot.config
-ProjectSettings/SceneTemplateSettings.json
-ProjectSettings/MemorySettings.asset
-Assets/scripts/mechant/LoadingValues.cs.meta
-Assets/scripts/mechant/LoadingValues.cs
-Assets/scripts/mechant/Donnees.meta
-Assets/scripts/Question/synonymes/synonymesCommon.json.meta
-Assets/scripts/Question/synonymes/synonymes.json.meta
 
 
 #json de crash
