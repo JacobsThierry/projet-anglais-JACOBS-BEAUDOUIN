@@ -7,6 +7,8 @@ public class wordManager
 
     private static string[] words = { "fuck", "shit", "poop" };
 
+    private static JsonLoader jsonLoader = new JsonLoader();
+
 
     private static Question[] questions = {
         new Question("2 + 2 ?", "4"),
@@ -15,8 +17,8 @@ public class wordManager
 
     public static string getWord()
     {
-
-        return words[Random.Range(0, words.Length)];
+        // return words[Random.Range(0, words.Length)];
+        return jsonLoader.getCommonWords();
     }
 
     public static Question getQuestion()
