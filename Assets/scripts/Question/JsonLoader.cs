@@ -25,7 +25,7 @@ public class JsonLoader
     public string getCommonWords()
     {
 
-        return synonymes.["fish"].synonyms[0][0];
+        return synonymes["health"].synonyms[0][0];
 
     }
 
