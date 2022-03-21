@@ -9,8 +9,6 @@ using System.Linq;
 public class JsonLoader
 {
 
-
-
     Dictionary<String, JSONObject> synonymes;
 
     public JsonLoader()
@@ -22,10 +20,14 @@ public class JsonLoader
 
     }
 
-    public string getCommonWords()
+    public string getRandomCommonWords()
     {
 
-        return synonymes["health"].synonyms[0][0];
+        System.Random random = new System.Random();
+	    int index = random.Next(synonymes.Count);
+        KeyValuePair<String, JSONObject> pair = synonymes.ElementAt(index);
+        return pair.Key;
+        // return synonymes["health"].synonyms[0][0];
 
     }
 

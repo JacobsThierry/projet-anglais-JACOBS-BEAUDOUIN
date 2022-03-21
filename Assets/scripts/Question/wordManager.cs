@@ -18,7 +18,7 @@ public class wordManager
     public static string getWord()
     {
         // return words[Random.Range(0, words.Length)];
-        return jsonLoader.getCommonWords();
+        return jsonLoader.getRandomCommonWords();
     }
 
     public static Question getQuestion()
