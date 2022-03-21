@@ -16,7 +16,6 @@ public class JsonLoader
 
         string text = File.ReadAllText("./Ressources/synonymes/synonymesCommon.json");
         synonymes = JsonConvert.DeserializeObject<Dictionary<String, JSONObject>>(text);
-        Debug.Log(synonymes);
 
     }
 
@@ -28,6 +27,27 @@ public class JsonLoader
         KeyValuePair<String, JSONObject> pair = synonymes.ElementAt(index);
         return pair.Key;
         // return synonymes["health"].synonyms[0][0];
+
+    }
+
+    public List<string> getCommonDefinitionLists(string str){
+
+        if(synonymes.ContainsKey(str)){
+            return synonymes[str].definition;
+        }
+        else{
+            return null;
+        }
+
+    }
+
+    public List<List<string>> getCommonSynonymesLists(string str){
+        if(synonymes.ContainsKey(str)){
+            return synonymes[str].synonyms;
+        }
+        else{
+            return null;
+        }
 
     }
 

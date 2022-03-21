@@ -5,9 +5,16 @@ using UnityEngine;
 public class wordManager
 {
 
-    private static string[] words = { "fuck", "shit", "poop" };
-
     private static JsonLoader jsonLoader = new JsonLoader();
+
+
+    public wordManager(){
+
+    }
+
+    public wordManager(string str){
+
+    }
 
 
     private static Question[] questions = {
@@ -17,9 +24,19 @@ public class wordManager
 
     public static string getWord()
     {
-        // return words[Random.Range(0, words.Length)];
-        return jsonLoader.getRandomCommonWords();
+        string word = jsonLoader.getRandomCommonWords();
+        return word;
     }
+
+    public static Synonymes getSynonymes()
+    {
+        string word = jsonLoader.getRandomCommonWords();
+        List<List<string>> synonymes = jsonLoader.getCommonSynonymesLists(word);
+        List<string> definition = jsonLoader.getCommonDefinitionLists(word);
+        Synonymes synonymes1 = new Synonymes(word,synonymes,definition);
+        return synonymes1;
+    }
+
 
     public static Question getQuestion()
     {

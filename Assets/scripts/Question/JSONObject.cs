@@ -13,5 +13,4 @@ public class JSONObject
 
     public List<String> definition;
 
-
 }
