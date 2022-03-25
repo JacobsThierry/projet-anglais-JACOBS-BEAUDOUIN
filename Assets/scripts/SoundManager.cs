@@ -19,7 +19,7 @@ public class SoundManager : MonoBehaviour
 
     public AudioClip musique;
 
-    public SoundManager instance;
+    public static SoundManager instance;
 
     public bool musiqueOn
     {
