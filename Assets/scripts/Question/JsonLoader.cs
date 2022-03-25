@@ -14,7 +14,7 @@ public class JsonLoader
     public JsonLoader()
     {
 
-        string text = File.ReadAllText("./Ressources/synonymes/synonymesCommon.json");
+        string text = File.ReadAllText("./Assets/Resources/synonymes/synonymesCommon.json");
         synonymes = JsonConvert.DeserializeObject<Dictionary<String, JSONObject>>(text);
 
     }
