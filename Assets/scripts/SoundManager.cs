@@ -19,6 +19,8 @@ public class SoundManager : MonoBehaviour
 
     public AudioClip musique;
 
+    public SoundManager instance;
+
     public bool musiqueOn
     {
 
@@ -53,8 +55,13 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(this.gameObject);
 
 
+        setupMusique();
     }
 
 
