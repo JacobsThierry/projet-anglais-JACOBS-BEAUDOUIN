@@ -5,17 +5,20 @@ using UnityEngine;
 public class DontDestroyOnLoad : MonoBehaviour
 {
 
+
     void Awake()
     {
-        GameObject gm = GameObject.Find(this.gameObject.name);
 
-        if (gm == null)
+        GameObject[] list = FindObjectsOfType<GameObject>();
+        bool b = false;
+        foreach (GameObject gm in list)
         {
-            DontDestroyOnLoad(this.gameObject);
+            if (gm.name == this.name && gm != this.gameObject)
+            {
+                Destroy(this.gameObject);
+            }
         }
-        else
-        {
-            Destroy(this.gameObject);
-        }
+
+        DontDestroyOnLoad(this.gameObject);
     }
 }
