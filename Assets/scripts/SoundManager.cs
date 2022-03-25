@@ -6,8 +6,6 @@ public class SoundManager : MonoBehaviour
 {
 
 
-    private List<GameObject> sounds = new List<GameObject>();
-
 
     public float volume;
 
@@ -40,7 +38,6 @@ public class SoundManager : MonoBehaviour
 
     public void setupMusique()
     {
-
         if (transform.Find("Musique") == null)
         {
             GameObject go = new GameObject("Musique");
@@ -88,7 +85,7 @@ public class SoundManager : MonoBehaviour
         if (asMusique != null)
             asMusique.volume = musiqueOn ? volume : 0;
 
-        foreach (GameObject o in sounds)
+        foreach (Transform o in transform)
         {
             AudioSource audioSource = o.GetComponent<AudioSource>();
             audioSource.volume = volume;
