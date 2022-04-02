@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-
-
-
+    
     public float volume;
 
 
@@ -16,6 +14,7 @@ public class SoundManager : MonoBehaviour
     private bool _musiqueOn = true;
 
     public AudioClip musique;
+
 
     public static SoundManager instance;
 

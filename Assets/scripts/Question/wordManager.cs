@@ -7,6 +7,8 @@ public class wordManager
 
     private static JsonLoader jsonLoader = new JsonLoader();
 
+    private static List<string> accents = new List<string>{"Irish", "Jamaica", "scot", "general", "Yorkshire", "rp", "us", "south"};
+
 
     public wordManager(){
 
@@ -24,7 +26,9 @@ public class wordManager
 
     public static string getWord()
     {
-        string word = jsonLoader.getRandomCommonWords();
+        // string word = jsonLoader.getRandomCommonWords();
+        // test
+        string word = jsonLoader.getRandomWordForAudio(accents[0]);
         return word;
     }
 
@@ -42,6 +46,22 @@ public class wordManager
     {
         return questions[Random.Range(0, questions.Length)];
     }
+
+    public static string getWordForSynonyms(){
+        string word = jsonLoader.getRandomCommonWords();
+        return word;
+    }
+
+    public static string getWordForAudio(string accent){
+        string word = jsonLoader.getRandomWordForAudio(accent);
+        return word;
+    }
+
+    public static string getAudioFromWord(string word, string accent){
+        string audio = jsonLoader.getAudioFromWord(word, accent);
+        return audio;
+    }
+
 
 
 }

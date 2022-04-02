@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.79, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -45,5 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mechant: {fileID: 2491730551398887118, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
   mechantQuestion: {fileID: 1905078896928975625, guid: edf1046d5ef167741a3cf7c29dd7671f, type: 3}
+  mechantAudio: {fileID: 1905078896928975625, guid: 6416df6c4b4e6426c99a94e410440e5b, type: 3}
   timer: 5
   spawnRange: 3.5

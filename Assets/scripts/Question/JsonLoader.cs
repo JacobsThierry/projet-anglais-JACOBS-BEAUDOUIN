@@ -11,12 +11,16 @@ public class JsonLoader
 
     Dictionary<String, JSONObject> synonymes;
 
+    Dictionary<String, JSONAudio> audios;
+
     public JsonLoader()
     {
 
         string text = File.ReadAllText("./Assets/Resources/synonymes/synonymesCommon.json");
         synonymes = JsonConvert.DeserializeObject<Dictionary<String, JSONObject>>(text);
 
+        string text2 = File.ReadAllText("./Assets/Resources/audio/dicoWR.json");
+        audios = JsonConvert.DeserializeObject<Dictionary<String, JSONAudio>>(text2);
     }
 
     public string getRandomCommonWords()
@@ -49,6 +53,29 @@ public class JsonLoader
             return null;
         }
 
+    }
+
+    public string getRandomWordForAudio(string accent){
+        String word = "";
+        Boolean found = false;
+        while(!found){
+            System.Random random = new System.Random();
+            int index = random.Next(audios.Count);
+            KeyValuePair<String, JSONAudio> pair = audios.ElementAt(index);
+
+            word = pair.Key;
+            
+            if(!(audios[word].getAccent(accent) == "")) // Si le mot est présent dans l'accent demandé
+            {
+                found = true;
+            }
+        }
+
+        return word;
+    }
+
+    public string getAudioFromWord(string word, string accent){
+        return audios[word].getAccent(accent);
     }
 
 }

@@ -1,0 +1,1952 @@
+{
+    "lunch": {
+        "Irish": "audio/Irish/lunch",
+        "Jamaica": "audio/Jamaica/lunch",
+        "scot": "audio/scot/lunch",
+        "general": "audio/uk/general/lunch",
+        "Yorkshire": "audio/uk/Yorkshire/lunch",
+        "rp": "audio/uk/rp/lunch",
+        "us": "audio/us/us/lunch",
+        "south": "audio/us/south/lunch"
+    },
+    "beat": {
+        "Irish": "audio/Irish/beat",
+        "Jamaica": "audio/Jamaica/beat",
+        "scot": "audio/scot/beat",
+        "general": "audio/uk/general/beat",
+        "Yorkshire": "audio/uk/Yorkshire/beat",
+        "rp": "audio/uk/rp/beat",
+        "us": "audio/us/us/beat",
+        "south": ""
+    },
+    "write": {
+        "Irish": "audio/Irish/write",
+        "Jamaica": "audio/Jamaica/write",
+        "scot": "audio/scot/write",
+        "general": "audio/uk/general/write",
+        "Yorkshire": "audio/uk/Yorkshire/write",
+        "rp": "audio/uk/rp/write",
+        "us": "audio/us/us/write",
+        "south": "audio/us/south/write"
+    },
+    "income": {
+        "Irish": "audio/Irish/income",
+        "Jamaica": "audio/Jamaica/income",
+        "scot": "audio/scot/income",
+        "general": "audio/uk/general/income",
+        "Yorkshire": "audio/uk/Yorkshire/income",
+        "rp": "audio/uk/rp/income",
+        "us": "audio/us/us/income",
+        "south": "audio/us/south/income"
+    },
+    "market": {
+        "Irish": "audio/Irish/market",
+        "Jamaica": "audio/Jamaica/market",
+        "scot": "audio/scot/market",
+        "general": "audio/uk/general/market",
+        "Yorkshire": "audio/uk/Yorkshire/market",
+        "rp": "audio/uk/rp/market",
+        "us": "audio/us/us/market",
+        "south": "audio/us/south/market"
+    },
+    "weigh": {
+        "Irish": "audio/Irish/weigh",
+        "Jamaica": "audio/Jamaica/weigh",
+        "scot": "audio/scot/weigh",
+        "general": "audio/uk/general/weigh",
+        "Yorkshire": "audio/uk/Yorkshire/weigh",
+        "rp": "audio/uk/rp/weigh",
+        "us": "audio/us/us/weigh",
+        "south": "audio/us/south/weigh"
+    },
+    "form": {
+        "Irish": "audio/Irish/form",
+        "Jamaica": "audio/Jamaica/form",
+        "scot": "audio/scot/form",
+        "general": "audio/uk/general/form",
+        "Yorkshire": "audio/uk/Yorkshire/form",
+        "rp": "audio/uk/rp/form",
+        "us": "audio/us/us/form",
+        "south": "audio/us/south/form"
+    },
+    "art": {
+        "Irish": "audio/Irish/art",
+        "Jamaica": "audio/Jamaica/art",
+        "scot": "audio/scot/art",
+        "general": "audio/uk/general/art",
+        "Yorkshire": "audio/uk/Yorkshire/art",
+        "rp": "audio/uk/rp/art",
+        "us": "audio/us/us/art",
+        "south": ""
+    },
+    "really": {
+        "Irish": "audio/Irish/really",
+        "Jamaica": "audio/Jamaica/really",
+        "scot": "audio/scot/really",
+        "general": "audio/uk/general/really",
+        "Yorkshire": "audio/uk/Yorkshire/really",
+        "rp": "audio/uk/rp/really",
+        "us": "audio/us/us/really",
+        "south": "audio/us/south/really"
+    },
+    "chance": {
+        "Irish": "audio/Irish/chance",
+        "Jamaica": "audio/Jamaica/chance",
+        "scot": "audio/scot/chance",
+        "general": "audio/uk/general/chance",
+        "Yorkshire": "audio/uk/Yorkshire/chance",
+        "rp": "audio/uk/rp/chance",
+        "us": "audio/us/us/chance",
+        "south": "audio/us/south/chance"
+    },
+    "job": {
+        "Irish": "audio/Irish/job",
+        "Jamaica": "audio/Jamaica/job",
+        "scot": "audio/scot/job",
+        "general": "audio/uk/general/job",
+        "Yorkshire": "audio/uk/Yorkshire/job",
+        "rp": "audio/uk/rp/job",
+        "us": "audio/us/us/job",
+        "south": "audio/us/south/job"
+    },
+    "maybe": {
+        "Irish": "audio/Irish/maybe",
+        "Jamaica": "audio/Jamaica/maybe",
+        "scot": "audio/scot/maybe",
+        "general": "audio/uk/general/maybe",
+        "Yorkshire": "audio/uk/Yorkshire/maybe",
+        "rp": "audio/uk/rp/maybe",
+        "us": "audio/us/us/maybe",
+        "south": "audio/us/south/maybe"
+    },
+    "how": {
+        "Irish": "audio/Irish/how",
+        "Jamaica": "audio/Jamaica/how",
+        "scot": "audio/scot/how",
+        "general": "audio/uk/general/how",
+        "Yorkshire": "audio/uk/Yorkshire/how",
+        "rp": "audio/uk/rp/how",
+        "us": "audio/us/us/how",
+        "south": "audio/us/south/how"
+    },
+    "of": {
+        "Irish": "audio/Irish/of",
+        "Jamaica": "audio/Jamaica/of",
+        "scot": "audio/scot/of",
+        "general": "audio/uk/general/of",
+        "Yorkshire": "audio/uk/Yorkshire/of",
+        "rp": "audio/uk/rp/of",
+        "us": "audio/us/us/of",
+        "south": "audio/us/south/of"
+    },
+    "love": {
+        "Irish": "audio/Irish/love",
+        "Jamaica": "audio/Jamaica/love",
+        "scot": "audio/scot/love",
+        "general": "audio/uk/general/love",
+        "Yorkshire": "audio/uk/Yorkshire/love",
+        "rp": "audio/uk/rp/love",
+        "us": "audio/us/us/love",
+        "south": "audio/us/south/love"
+    },
+    "teach": {
+        "Irish": "audio/Irish/teach",
+        "Jamaica": "audio/Jamaica/teach",
+        "scot": "audio/scot/teach",
+        "general": "audio/uk/general/teach",
+        "Yorkshire": "audio/uk/Yorkshire/teach",
+        "rp": "audio/uk/rp/teach",
+        "us": "audio/us/us/teach",
+        "south": "audio/us/south/teach"
+    },
+    "about": {
+        "Irish": "audio/Irish/about",
+        "Jamaica": "audio/Jamaica/about",
+        "scot": "audio/scot/about",
+        "general": "audio/uk/general/about",
+        "Yorkshire": "audio/uk/Yorkshire/about",
+        "rp": "audio/uk/rp/about",
+        "us": "audio/us/us/about",
+        "south": ""
+    },
+    "bus": {
+        "Irish": "audio/Irish/bus",
+        "Jamaica": "audio/Jamaica/bus",
+        "scot": "audio/scot/bus",
+        "general": "audio/uk/general/bus",
+        "Yorkshire": "audio/uk/Yorkshire/bus",
+        "rp": "audio/uk/rp/bus",
+        "us": "audio/us/us/bus",
+        "south": "audio/us/south/bus"
+    },
+    "most": {
+        "Irish": "audio/Irish/most",
+        "Jamaica": "audio/Jamaica/most",
+        "scot": "audio/scot/most",
+        "general": "audio/uk/general/most",
+        "Yorkshire": "audio/uk/Yorkshire/most",
+        "rp": "audio/uk/rp/most",
+        "south": "audio/us/south/most",
+        "us": ""
+    },
+    "feel": {
+        "Irish": "audio/Irish/feel",
+        "Jamaica": "audio/Jamaica/feel",
+        "scot": "audio/scot/feel",
+        "general": "audio/uk/general/feel",
+        "Yorkshire": "audio/uk/Yorkshire/feel",
+        "us": "audio/us/us/feel",
+        "south": "audio/us/south/feel",
+        "rp": ""
+    },
+    "busy": {
+        "Irish": "audio/Irish/busy",
+        "Jamaica": "audio/Jamaica/busy",
+        "scot": "audio/scot/busy",
+        "general": "audio/uk/general/busy",
+        "Yorkshire": "audio/uk/Yorkshire/busy",
+        "rp": "audio/uk/rp/busy",
+        "us": "audio/us/us/busy",
+        "south": "audio/us/south/busy"
+    },
+    "discuss": {
+        "Irish": "audio/Irish/discuss",
+        "Jamaica": "audio/Jamaica/discuss",
+        "scot": "audio/scot/discuss",
+        "general": "audio/uk/general/discuss",
+        "Yorkshire": "audio/uk/Yorkshire/discuss",
+        "rp": "audio/uk/rp/discuss",
+        "us": "audio/us/us/discuss",
+        "south": "audio/us/south/discuss"
+    },
+    "secretary": {
+        "Irish": "audio/Irish/secretary",
+        "Jamaica": "audio/Jamaica/secretary",
+        "scot": "audio/scot/secretary",
+        "general": "audio/uk/general/secretary",
+        "Yorkshire": "audio/uk/Yorkshire/secretary",
+        "rp": "audio/uk/rp/secretary",
+        "us": "audio/us/us/secretary",
+        "south": "audio/us/south/secretary"
+    },
+    "seven": {
+        "Irish": "audio/Irish/seven",
+        "Jamaica": "audio/Jamaica/seven",
+        "scot": "audio/scot/seven",
+        "general": "audio/uk/general/seven",
+        "Yorkshire": "audio/uk/Yorkshire/seven",
+        "rp": "audio/uk/rp/seven",
+        "us": "audio/us/us/seven",
+        "south": "audio/us/south/seven"
+    },
+    "kitchen": {
+        "Irish": "audio/Irish/kitchen",
+        "Jamaica": "audio/Jamaica/kitchen",
+        "scot": "audio/scot/kitchen",
+        "general": "audio/uk/general/kitchen",
+        "Yorkshire": "audio/uk/Yorkshire/kitchen",
+        "rp": "audio/uk/rp/kitchen",
+        "us": "audio/us/us/kitchen",
+        "south": "audio/us/south/kitchen"
+    },
+    "invest": {
+        "Irish": "audio/Irish/invest",
+        "Jamaica": "audio/Jamaica/invest",
+        "scot": "audio/scot/invest",
+        "general": "audio/uk/general/invest",
+        "Yorkshire": "audio/uk/Yorkshire/invest",
+        "rp": "audio/uk/rp/invest",
+        "us": "audio/us/us/invest",
+        "south": "audio/us/south/invest"
+    },
+    "to": {
+        "Irish": "audio/Irish/to",
+        "Jamaica": "audio/Jamaica/to",
+        "scot": "audio/scot/to",
+        "general": "audio/uk/general/to",
+        "Yorkshire": "audio/uk/Yorkshire/to",
+        "rp": "audio/uk/rp/to",
+        "us": "audio/us/us/to",
+        "south": "audio/us/south/to"
+    },
+    "none": {
+        "Irish": "audio/Irish/none",
+        "Jamaica": "audio/Jamaica/none",
+        "scot": "audio/scot/none",
+        "general": "audio/uk/general/none",
+        "Yorkshire": "audio/uk/Yorkshire/none",
+        "rp": "audio/uk/rp/none",
+        "us": "audio/us/us/none",
+        "south": "audio/us/south/none"
+    },
+    "consider": {
+        "Irish": "audio/Irish/consider",
+        "Jamaica": "audio/Jamaica/consider",
+        "scot": "audio/scot/consider",
+        "general": "audio/uk/general/consider",
+        "Yorkshire": "audio/uk/Yorkshire/consider",
+        "rp": "audio/uk/rp/consider",
+        "us": "audio/us/us/consider",
+        "south": "audio/us/south/consider"
+    },
+    "lead": {
+        "Irish": "audio/Irish/lead",
+        "Jamaica": "audio/Jamaica/lead",
+        "scot": "audio/scot/lead",
+        "general": "audio/uk/general/lead",
+        "Yorkshire": "audio/uk/Yorkshire/lead",
+        "rp": "audio/uk/rp/lead",
+        "us": "audio/us/us/lead",
+        "south": "audio/us/south/lead"
+    },
+    "current": {
+        "Irish": "audio/Irish/current",
+        "Jamaica": "audio/Jamaica/current",
+        "scot": "audio/scot/current",
+        "general": "audio/uk/general/current",
+        "Yorkshire": "audio/uk/Yorkshire/current",
+        "rp": "audio/uk/rp/current",
+        "us": "audio/us/us/current",
+        "south": "audio/us/south/current"
+    },
+    "industry": {
+        "Irish": "audio/Irish/industry",
+        "Jamaica": "audio/Jamaica/industry",
+        "scot": "audio/scot/industry",
+        "general": "audio/uk/general/industry",
+        "Yorkshire": "audio/uk/Yorkshire/industry",
+        "rp": "audio/uk/rp/industry",
+        "us": "audio/us/us/industry",
+        "south": "audio/us/south/industry"
+    },
+    "leave": {
+        "Irish": "audio/Irish/leave",
+        "Jamaica": "audio/Jamaica/leave",
+        "scot": "audio/scot/leave",
+        "general": "audio/uk/general/leave",
+        "Yorkshire": "audio/uk/Yorkshire/leave",
+        "rp": "audio/uk/rp/leave",
+        "us": "audio/us/us/leave",
+        "south": "audio/us/south/leave"
+    },
+    "compare": {
+        "Irish": "audio/Irish/compare",
+        "Jamaica": "audio/Jamaica/compare",
+        "scot": "audio/scot/compare",
+        "general": "audio/uk/general/compare",
+        "Yorkshire": "audio/uk/Yorkshire/compare",
+        "rp": "audio/uk/rp/compare",
+        "us": "audio/us/us/compare",
+        "south": "audio/us/south/compare"
+    },
+    "right": {
+        "Irish": "audio/Irish/right",
+        "Jamaica": "audio/Jamaica/right",
+        "scot": "audio/scot/right",
+        "general": "audio/uk/general/right",
+        "Yorkshire": "audio/uk/Yorkshire/right",
+        "rp": "audio/uk/rp/right",
+        "us": "audio/us/us/right",
+        "south": "audio/us/south/right"
+    },
+    "start": {
+        "Irish": "audio/Irish/start",
+        "Jamaica": "audio/Jamaica/start",
+        "scot": "audio/scot/start",
+        "general": "audio/uk/general/start",
+        "Yorkshire": "audio/uk/Yorkshire/start",
+        "rp": "audio/uk/rp/start",
+        "us": "audio/us/us/start",
+        "south": "audio/us/south/start"
+    },
+    "late": {
+        "Irish": "audio/Irish/late",
+        "Jamaica": "audio/Jamaica/late",
+        "scot": "audio/scot/late",
+        "general": "audio/uk/general/late",
+        "Yorkshire": "audio/uk/Yorkshire/late",
+        "rp": "audio/uk/rp/late",
+        "us": "audio/us/us/late",
+        "south": "audio/us/south/late"
+    },
+    "appoint": {
+        "Irish": "audio/Irish/appoint",
+        "Jamaica": "audio/Jamaica/appoint",
+        "scot": "audio/scot/appoint",
+        "general": "audio/uk/general/appoint",
+        "Yorkshire": "audio/uk/Yorkshire/appoint",
+        "rp": "audio/uk/rp/appoint",
+        "us": "audio/us/us/appoint",
+        "south": ""
+    },
+    "age": {
+        "Irish": "audio/Irish/age",
+        "Jamaica": "audio/Jamaica/age",
+        "scot": "audio/scot/age",
+        "general": "audio/uk/general/age",
+        "Yorkshire": "audio/uk/Yorkshire/age",
+        "rp": "audio/uk/rp/age",
+        "us": "audio/us/us/age",
+        "south": ""
+    },
+    "close": {
+        "Irish": "audio/Irish/close",
+        "Jamaica": "audio/Jamaica/close",
+        "scot": "audio/scot/close",
+        "general": "audio/uk/general/close",
+        "Yorkshire": "audio/uk/Yorkshire/close",
+        "rp": "audio/uk/rp/close",
+        "us": "audio/us/us/close",
+        "south": "audio/us/south/close"
+    },
+    "apparent": {
+        "Irish": "audio/Irish/apparent",
+        "Jamaica": "audio/Jamaica/apparent",
+        "scot": "audio/scot/apparent",
+        "general": "audio/uk/general/apparent",
+        "Yorkshire": "audio/uk/Yorkshire/apparent",
+        "rp": "audio/uk/rp/apparent",
+        "us": "audio/us/us/apparent",
+        "south": ""
+    },
+    "fish": {
+        "Irish": "audio/Irish/fish",
+        "Jamaica": "audio/Jamaica/fish",
+        "scot": "audio/scot/fish",
+        "general": "audio/uk/general/fish",
+        "Yorkshire": "audio/uk/Yorkshire/fish",
+        "rp": "audio/uk/rp/fish",
+        "us": "audio/us/us/fish",
+        "south": "audio/us/south/fish"
+    },
+    "copy": {
+        "Irish": "audio/Irish/copy",
+        "Jamaica": "audio/Jamaica/copy",
+        "scot": "audio/scot/copy",
+        "general": "audio/uk/general/copy",
+        "Yorkshire": "audio/uk/Yorkshire/copy",
+        "rp": "audio/uk/rp/copy",
+        "us": "audio/us/us/copy",
+        "south": "audio/us/south/copy"
+    },
+    "social": {
+        "Irish": "audio/Irish/social",
+        "Jamaica": "audio/Jamaica/social",
+        "scot": "audio/scot/social",
+        "general": "audio/uk/general/social",
+        "Yorkshire": "audio/uk/Yorkshire/social",
+        "rp": "audio/uk/rp/social",
+        "us": "audio/us/us/social",
+        "south": "audio/us/south/social"
+    },
+    "not": {
+        "Irish": "audio/Irish/not",
+        "Jamaica": "audio/Jamaica/not",
+        "scot": "audio/scot/not",
+        "general": "audio/uk/general/not",
+        "Yorkshire": "audio/uk/Yorkshire/not",
+        "rp": "audio/uk/rp/not",
+        "us": "audio/us/us/not",
+        "south": "audio/us/south/not"
+    },
+    "budget": {
+        "Irish": "audio/Irish/budget",
+        "Jamaica": "audio/Jamaica/budget",
+        "scot": "audio/scot/budget",
+        "general": "audio/uk/general/budget",
+        "Yorkshire": "audio/uk/Yorkshire/budget",
+        "rp": "audio/uk/rp/budget",
+        "us": "audio/us/us/budget",
+        "south": "audio/us/south/budget"
+    },
+    "sell": {
+        "Irish": "audio/Irish/sell",
+        "Jamaica": "audio/Jamaica/sell",
+        "scot": "audio/scot/sell",
+        "general": "audio/uk/general/sell",
+        "Yorkshire": "audio/uk/Yorkshire/sell",
+        "rp": "audio/uk/rp/sell",
+        "us": "audio/us/us/sell",
+        "south": "audio/us/south/sell"
+    },
+    "rail": {
+        "Irish": "audio/Irish/rail",
+        "Jamaica": "audio/Jamaica/rail",
+        "scot": "audio/scot/rail",
+        "general": "audio/uk/general/rail",
+        "Yorkshire": "audio/uk/Yorkshire/rail",
+        "rp": "audio/uk/rp/rail",
+        "us": "audio/us/us/rail",
+        "south": "audio/us/south/rail"
+    },
+    "afford": {
+        "Irish": "audio/Irish/afford",
+        "Jamaica": "audio/Jamaica/afford",
+        "scot": "audio/scot/afford",
+        "general": "audio/uk/general/afford",
+        "Yorkshire": "audio/uk/Yorkshire/afford",
+        "rp": "audio/uk/rp/afford",
+        "us": "audio/us/us/afford",
+        "south": ""
+    },
+    "dress": {
+        "Irish": "audio/Irish/dress",
+        "Jamaica": "audio/Jamaica/dress",
+        "scot": "audio/scot/dress",
+        "general": "audio/uk/general/dress",
+        "Yorkshire": "audio/uk/Yorkshire/dress",
+        "rp": "audio/uk/rp/dress",
+        "us": "audio/us/us/dress",
+        "south": "audio/us/south/dress"
+    },
+    "be": {
+        "Irish": "audio/Irish/be",
+        "Jamaica": "audio/Jamaica/be",
+        "scot": "audio/scot/be",
+        "general": "audio/uk/general/be",
+        "Yorkshire": "audio/uk/Yorkshire/be",
+        "rp": "audio/uk/rp/be",
+        "us": "audio/us/us/be",
+        "south": ""
+    },
+    "bloke": {
+        "Irish": "audio/Irish/bloke",
+        "Jamaica": "audio/Jamaica/bloke",
+        "scot": "audio/scot/bloke",
+        "general": "audio/uk/general/bloke",
+        "Yorkshire": "audio/uk/Yorkshire/bloke",
+        "rp": "audio/uk/rp/bloke",
+        "us": "audio/us/us/bloke",
+        "south": ""
+    },
+    "tea": {
+        "Irish": "audio/Irish/tea",
+        "Jamaica": "audio/Jamaica/tea",
+        "scot": "audio/scot/tea",
+        "general": "audio/uk/general/tea",
+        "Yorkshire": "audio/uk/Yorkshire/tea",
+        "rp": "audio/uk/rp/tea",
+        "us": "audio/us/us/tea",
+        "south": "audio/us/south/tea"
+    },
+    "bad": {
+        "Irish": "audio/Irish/bad",
+        "Jamaica": "audio/Jamaica/bad",
+        "scot": "audio/scot/bad",
+        "general": "audio/uk/general/bad",
+        "Yorkshire": "audio/uk/Yorkshire/bad",
+        "rp": "audio/uk/rp/bad",
+        "us": "audio/us/us/bad",
+        "south": ""
+    },
+    "station": {
+        "Irish": "audio/Irish/station",
+        "Jamaica": "audio/Jamaica/station",
+        "scot": "audio/scot/station",
+        "general": "audio/uk/general/station",
+        "Yorkshire": "audio/uk/Yorkshire/station",
+        "rp": "audio/uk/rp/station",
+        "us": "audio/us/us/station",
+        "south": "audio/us/south/station"
+    },
+    "middle": {
+        "Irish": "audio/Irish/middle",
+        "Jamaica": "audio/Jamaica/middle",
+        "scot": "audio/scot/middle",
+        "general": "audio/uk/general/middle",
+        "Yorkshire": "audio/uk/Yorkshire/middle",
+        "rp": "audio/uk/rp/middle",
+        "south": "audio/us/south/middle",
+        "us": ""
+    },
+    "matter": {
+        "Irish": "audio/Irish/matter",
+        "Jamaica": "audio/Jamaica/matter",
+        "scot": "audio/scot/matter",
+        "general": "audio/uk/general/matter",
+        "Yorkshire": "audio/uk/Yorkshire/matter",
+        "rp": "audio/uk/rp/matter",
+        "us": "audio/us/us/matter",
+        "south": "audio/us/south/matter"
+    },
+    "level": {
+        "Irish": "audio/Irish/level",
+        "Jamaica": "audio/Jamaica/level",
+        "scot": "audio/scot/level",
+        "general": "audio/uk/general/level",
+        "Yorkshire": "audio/uk/Yorkshire/level",
+        "rp": "audio/uk/rp/level",
+        "us": "audio/us/us/level",
+        "south": "audio/us/south/level"
+    },
+    "without": {
+        "Irish": "audio/Irish/without",
+        "Jamaica": "audio/Jamaica/without",
+        "scot": "audio/scot/without",
+        "general": "audio/uk/general/without",
+        "Yorkshire": "audio/uk/Yorkshire/without",
+        "rp": "audio/uk/rp/without",
+        "us": "audio/us/us/without",
+        "south": "audio/us/south/without"
+    },
+    "total": {
+        "Irish": "audio/Irish/total",
+        "Jamaica": "audio/Jamaica/total",
+        "scot": "audio/scot/total",
+        "general": "audio/uk/general/total",
+        "Yorkshire": "audio/uk/Yorkshire/total",
+        "rp": "audio/uk/rp/total",
+        "us": "audio/us/us/total",
+        "south": "audio/us/south/total"
+    },
+    "drop": {
+        "Irish": "audio/Irish/drop",
+        "Jamaica": "audio/Jamaica/drop",
+        "scot": "audio/scot/drop",
+        "general": "audio/uk/general/drop",
+        "Yorkshire": "audio/uk/Yorkshire/drop",
+        "rp": "audio/uk/rp/drop",
+        "us": "audio/us/us/drop",
+        "south": "audio/us/south/drop"
+    },
+    "other": {
+        "Irish": "audio/Irish/other",
+        "Jamaica": "audio/Jamaica/other",
+        "scot": "audio/scot/other",
+        "general": "audio/uk/general/other",
+        "Yorkshire": "audio/uk/Yorkshire/other",
+        "rp": "audio/uk/rp/other",
+        "us": "audio/us/us/other",
+        "south": "audio/us/south/other"
+    },
+    "organize": {
+        "Irish": "audio/Irish/organize",
+        "Jamaica": "audio/Jamaica/organize",
+        "scot": "audio/scot/organize",
+        "general": "audio/uk/general/organize",
+        "Yorkshire": "audio/uk/Yorkshire/organize",
+        "rp": "audio/uk/rp/organize",
+        "us": "audio/us/us/organize",
+        "south": "audio/us/south/organize"
+    },
+    "read": {
+        "Irish": "audio/Irish/read",
+        "Jamaica": "audio/Jamaica/read",
+        "scot": "audio/scot/read",
+        "general": "audio/uk/general/read",
+        "Yorkshire": "audio/uk/Yorkshire/read",
+        "rp": "audio/uk/rp/read",
+        "us": "audio/us/us/read",
+        "south": "audio/us/south/read"
+    },
+    "want": {
+        "Irish": "audio/Irish/want",
+        "Jamaica": "audio/Jamaica/want",
+        "scot": "audio/scot/want",
+        "general": "audio/uk/general/want",
+        "Yorkshire": "audio/uk/Yorkshire/want",
+        "rp": "audio/uk/rp/want",
+        "us": "audio/us/us/want",
+        "south": "audio/us/south/want"
+    },
+    "tomorrow": {
+        "Irish": "audio/Irish/tomorrow",
+        "Jamaica": "audio/Jamaica/tomorrow",
+        "scot": "audio/scot/tomorrow",
+        "general": "audio/uk/general/tomorrow",
+        "Yorkshire": "audio/uk/Yorkshire/tomorrow",
+        "rp": "audio/uk/rp/tomorrow",
+        "us": "audio/us/us/tomorrow",
+        "south": "audio/us/south/tomorrow"
+    },
+    "run": {
+        "Irish": "audio/Irish/run",
+        "Jamaica": "audio/Jamaica/run",
+        "scot": "audio/scot/run",
+        "general": "audio/uk/general/run",
+        "Yorkshire": "audio/uk/Yorkshire/run",
+        "rp": "audio/uk/rp/run",
+        "us": "audio/us/us/run",
+        "south": "audio/us/south/run"
+    },
+    "keep": {
+        "Irish": "audio/Irish/keep",
+        "Jamaica": "audio/Jamaica/keep",
+        "scot": "audio/scot/keep",
+        "general": "audio/uk/general/keep",
+        "Yorkshire": "audio/uk/Yorkshire/keep",
+        "rp": "audio/uk/rp/keep",
+        "us": "audio/us/us/keep",
+        "south": "audio/us/south/keep"
+    },
+    "leg": {
+        "Irish": "audio/Irish/leg",
+        "Jamaica": "audio/Jamaica/leg",
+        "scot": "audio/scot/leg",
+        "general": "audio/uk/general/leg",
+        "Yorkshire": "audio/uk/Yorkshire/leg",
+        "rp": "audio/uk/rp/leg",
+        "us": "audio/us/us/leg",
+        "south": "audio/us/south/leg"
+    },
+    "surprise": {
+        "Irish": "audio/Irish/surprise",
+        "Jamaica": "audio/Jamaica/surprise",
+        "scot": "audio/scot/surprise",
+        "general": "audio/uk/general/surprise",
+        "Yorkshire": "audio/uk/Yorkshire/surprise",
+        "rp": "audio/uk/rp/surprise",
+        "us": "audio/us/us/surprise",
+        "south": "audio/us/south/surprise"
+    },
+    "set": {
+        "Irish": "audio/Irish/set",
+        "Jamaica": "audio/Jamaica/set",
+        "scot": "audio/scot/set",
+        "general": "audio/uk/general/set",
+        "Yorkshire": "audio/uk/Yorkshire/set",
+        "rp": "audio/uk/rp/set",
+        "us": "audio/us/us/set",
+        "south": "audio/us/south/set"
+    },
+    "further": {
+        "Irish": "audio/Irish/further",
+        "Jamaica": "audio/Jamaica/further",
+        "scot": "audio/scot/further",
+        "general": "audio/uk/general/further",
+        "Yorkshire": "audio/uk/Yorkshire/further",
+        "rp": "audio/uk/rp/further",
+        "us": "audio/us/us/further",
+        "south": "audio/us/south/further"
+    },
+    "when": {
+        "Irish": "audio/Irish/when",
+        "Jamaica": "audio/Jamaica/when",
+        "scot": "audio/scot/when",
+        "general": "audio/uk/general/when",
+        "Yorkshire": "audio/uk/Yorkshire/when",
+        "rp": "audio/uk/rp/when",
+        "us": "audio/us/us/when",
+        "south": "audio/us/south/when"
+    },
+    "until": {
+        "Irish": "audio/Irish/until",
+        "Jamaica": "audio/Jamaica/until",
+        "scot": "audio/scot/until",
+        "general": "audio/uk/general/until",
+        "Yorkshire": "audio/uk/Yorkshire/until",
+        "rp": "audio/uk/rp/until",
+        "us": "audio/us/us/until",
+        "south": "audio/us/south/until"
+    },
+    "car": {
+        "Irish": "audio/Irish/car",
+        "Jamaica": "audio/Jamaica/car",
+        "scot": "audio/scot/car",
+        "general": "audio/uk/general/car",
+        "Yorkshire": "audio/uk/Yorkshire/car",
+        "rp": "audio/uk/rp/car",
+        "us": "audio/us/us/car",
+        "south": "audio/us/south/car"
+    },
+    "drive": {
+        "Irish": "audio/Irish/drive",
+        "Jamaica": "audio/Jamaica/drive",
+        "scot": "audio/scot/drive",
+        "general": "audio/uk/general/drive",
+        "Yorkshire": "audio/uk/Yorkshire/drive",
+        "rp": "audio/uk/rp/drive",
+        "us": "audio/us/us/drive",
+        "south": "audio/us/south/drive"
+    },
+    "together": {
+        "Irish": "audio/Irish/together",
+        "Jamaica": "audio/Jamaica/together",
+        "scot": "audio/scot/together",
+        "general": "audio/uk/general/together",
+        "Yorkshire": "audio/uk/Yorkshire/together",
+        "rp": "audio/uk/rp/together",
+        "us": "audio/us/us/together",
+        "south": "audio/us/south/together"
+    },
+    "second": {
+        "Irish": "audio/Irish/second",
+        "Jamaica": "audio/Jamaica/second",
+        "scot": "audio/scot/second",
+        "general": "audio/uk/general/second",
+        "Yorkshire": "audio/uk/Yorkshire/second",
+        "rp": "audio/uk/rp/second",
+        "us": "audio/us/us/second",
+        "south": "audio/us/south/second"
+    },
+    "board": {
+        "Irish": "audio/Irish/board",
+        "Jamaica": "audio/Jamaica/board",
+        "scot": "audio/scot/board",
+        "general": "audio/uk/general/board",
+        "Yorkshire": "audio/uk/Yorkshire/board",
+        "rp": "audio/uk/rp/board",
+        "us": "audio/us/us/board",
+        "south": ""
+    },
+    "separate": {
+        "Irish": "audio/Irish/separate",
+        "Jamaica": "audio/Jamaica/separate",
+        "scot": "audio/scot/separate",
+        "general": "audio/uk/general/separate",
+        "Yorkshire": "audio/uk/Yorkshire/separate",
+        "rp": "audio/uk/rp/separate",
+        "us": "audio/us/us/separate",
+        "south": "audio/us/south/separate"
+    },
+    "let": {
+        "Irish": "audio/Irish/let",
+        "Jamaica": "audio/Jamaica/let",
+        "scot": "audio/scot/let",
+        "general": "audio/uk/general/let",
+        "Yorkshire": "audio/uk/Yorkshire/let",
+        "rp": "audio/uk/rp/let",
+        "us": "audio/us/us/let",
+        "south": "audio/us/south/let"
+    },
+    "think": {
+        "Irish": "audio/Irish/think",
+        "Jamaica": "audio/Jamaica/think",
+        "scot": "audio/scot/think",
+        "general": "audio/uk/general/think",
+        "Yorkshire": "audio/uk/Yorkshire/think",
+        "rp": "audio/uk/rp/think",
+        "us": "audio/us/us/think",
+        "south": "audio/us/south/think"
+    },
+    "item": {
+        "Irish": "audio/Irish/item",
+        "Jamaica": "audio/Jamaica/item",
+        "scot": "audio/scot/item",
+        "general": "audio/uk/general/item",
+        "Yorkshire": "audio/uk/Yorkshire/item",
+        "rp": "audio/uk/rp/item",
+        "us": "audio/us/us/item",
+        "south": "audio/us/south/item"
+    },
+    "rate": {
+        "Irish": "audio/Irish/rate",
+        "Jamaica": "audio/Jamaica/rate",
+        "scot": "audio/scot/rate",
+        "general": "audio/uk/general/rate",
+        "Yorkshire": "audio/uk/Yorkshire/rate",
+        "rp": "audio/uk/rp/rate",
+        "us": "audio/us/us/rate",
+        "south": "audio/us/south/rate"
+    },
+    "head": {
+        "Irish": "audio/Irish/head",
+        "Jamaica": "audio/Jamaica/head",
+        "scot": "audio/scot/head",
+        "general": "audio/uk/general/head",
+        "Yorkshire": "audio/uk/Yorkshire/head",
+        "rp": "audio/uk/rp/head",
+        "us": "audio/us/us/head",
+        "south": "audio/us/south/head"
+    },
+    "five": {
+        "Irish": "audio/Irish/five",
+        "Jamaica": "audio/Jamaica/five",
+        "scot": "audio/scot/five",
+        "general": "audio/uk/general/five",
+        "Yorkshire": "audio/uk/Yorkshire/five",
+        "rp": "audio/uk/rp/five",
+        "us": "audio/us/us/five",
+        "south": "audio/us/south/five"
+    },
+    "pension": {
+        "Irish": "audio/Irish/pension",
+        "Jamaica": "audio/Jamaica/pension",
+        "scot": "audio/scot/pension",
+        "general": "audio/uk/general/pension",
+        "Yorkshire": "audio/uk/Yorkshire/pension",
+        "rp": "audio/uk/rp/pension",
+        "us": "audio/us/us/pension",
+        "south": "audio/us/south/pension"
+    },
+    "so": {
+        "Irish": "audio/Irish/so",
+        "Jamaica": "audio/Jamaica/so",
+        "scot": "audio/scot/so",
+        "general": "audio/uk/general/so",
+        "Yorkshire": "audio/uk/Yorkshire/so",
+        "rp": "audio/uk/rp/so",
+        "us": "audio/us/us/so",
+        "south": "audio/us/south/so"
+    },
+    "worry": {
+        "Irish": "audio/Irish/worry",
+        "Jamaica": "audio/Jamaica/worry",
+        "scot": "audio/scot/worry",
+        "general": "audio/uk/general/worry",
+        "Yorkshire": "audio/uk/Yorkshire/worry",
+        "rp": "audio/uk/rp/worry",
+        "us": "audio/us/us/worry",
+        "south": "audio/us/south/worry"
+    },
+    "money": {
+        "Irish": "audio/Irish/money",
+        "Jamaica": "audio/Jamaica/money",
+        "scot": "audio/scot/money",
+        "general": "audio/uk/general/money",
+        "Yorkshire": "audio/uk/Yorkshire/money",
+        "rp": "audio/uk/rp/money",
+        "south": "audio/us/south/money",
+        "us": ""
+    },
+    "cent": {
+        "Irish": "audio/Irish/cent",
+        "Jamaica": "audio/Jamaica/cent",
+        "scot": "audio/scot/cent",
+        "general": "audio/uk/general/cent",
+        "Yorkshire": "audio/uk/Yorkshire/cent",
+        "rp": "audio/uk/rp/cent",
+        "us": "audio/us/us/cent",
+        "south": "audio/us/south/cent"
+    },
+    "photograph": {
+        "Irish": "audio/Irish/photograph",
+        "Jamaica": "audio/Jamaica/photograph",
+        "scot": "audio/scot/photograph",
+        "general": "audio/uk/general/photograph",
+        "Yorkshire": "audio/uk/Yorkshire/photograph",
+        "rp": "audio/uk/rp/photograph",
+        "us": "audio/us/us/photograph",
+        "south": "audio/us/south/photograph"
+    },
+    "church": {
+        "Irish": "audio/Irish/church",
+        "Jamaica": "audio/Jamaica/church",
+        "scot": "audio/scot/church",
+        "general": "audio/uk/general/church",
+        "Yorkshire": "audio/uk/Yorkshire/church",
+        "rp": "audio/uk/rp/church",
+        "us": "audio/us/us/church",
+        "south": "audio/us/south/church"
+    },
+    "research": {
+        "Irish": "audio/Irish/research",
+        "Jamaica": "audio/Jamaica/research",
+        "scot": "audio/scot/research",
+        "general": "audio/uk/general/research",
+        "Yorkshire": "audio/uk/Yorkshire/research",
+        "rp": "audio/uk/rp/research",
+        "us": "audio/us/us/research",
+        "south": "audio/us/south/research"
+    },
+    "step": {
+        "Irish": "audio/Irish/step",
+        "Jamaica": "audio/Jamaica/step",
+        "scot": "audio/scot/step",
+        "general": "audio/uk/general/step",
+        "Yorkshire": "audio/uk/Yorkshire/step",
+        "rp": "audio/uk/rp/step",
+        "us": "audio/us/us/step",
+        "south": "audio/us/south/step"
+    },
+    "body": {
+        "Irish": "audio/Irish/body",
+        "Jamaica": "audio/Jamaica/body",
+        "scot": "audio/scot/body",
+        "general": "audio/uk/general/body",
+        "Yorkshire": "audio/uk/Yorkshire/body",
+        "rp": "audio/uk/rp/body",
+        "us": "audio/us/us/body",
+        "south": ""
+    },
+    "hold": {
+        "Irish": "audio/Irish/hold",
+        "Jamaica": "audio/Jamaica/hold",
+        "scot": "audio/scot/hold",
+        "general": "audio/uk/general/hold",
+        "Yorkshire": "audio/uk/Yorkshire/hold",
+        "rp": "audio/uk/rp/hold",
+        "us": "audio/us/us/hold",
+        "south": "audio/us/south/hold"
+    },
+    "apply": {
+        "Irish": "audio/Irish/apply",
+        "Jamaica": "audio/Jamaica/apply",
+        "scot": "audio/scot/apply",
+        "general": "audio/uk/general/apply",
+        "Yorkshire": "audio/uk/Yorkshire/apply",
+        "rp": "audio/uk/rp/apply",
+        "us": "audio/us/us/apply",
+        "south": ""
+    },
+    "treat": {
+        "Irish": "audio/Irish/treat",
+        "Jamaica": "audio/Jamaica/treat",
+        "scot": "audio/scot/treat",
+        "general": "audio/uk/general/treat",
+        "Yorkshire": "audio/uk/Yorkshire/treat",
+        "rp": "audio/uk/rp/treat",
+        "us": "audio/us/us/treat",
+        "south": "audio/us/south/treat"
+    },
+    "just": {
+        "Irish": "audio/Irish/just",
+        "Jamaica": "audio/Jamaica/just",
+        "scot": "audio/scot/just",
+        "general": "audio/uk/general/just",
+        "Yorkshire": "audio/uk/Yorkshire/just",
+        "rp": "audio/uk/rp/just",
+        "us": "audio/us/us/just",
+        "south": "audio/us/south/just"
+    },
+    "equal": {
+        "Irish": "audio/Irish/equal",
+        "Jamaica": "audio/Jamaica/equal",
+        "scot": "audio/scot/equal",
+        "general": "audio/uk/general/equal",
+        "Yorkshire": "audio/uk/Yorkshire/equal",
+        "us": "audio/us/us/equal",
+        "south": "audio/us/south/equal",
+        "rp": ""
+    },
+    "function": {
+        "Irish": "audio/Irish/function",
+        "Jamaica": "audio/Jamaica/function",
+        "scot": "audio/scot/function",
+        "general": "audio/uk/general/function",
+        "Yorkshire": "audio/uk/Yorkshire/function",
+        "rp": "audio/uk/rp/function",
+        "us": "audio/us/us/function",
+        "south": "audio/us/south/function"
+    },
+    "bet": {
+        "Irish": "audio/Irish/bet",
+        "Jamaica": "audio/Jamaica/bet",
+        "scot": "audio/scot/bet",
+        "general": "audio/uk/general/bet",
+        "Yorkshire": "audio/uk/Yorkshire/bet",
+        "rp": "audio/uk/rp/bet",
+        "us": "audio/us/us/bet",
+        "south": ""
+    },
+    "provide": {
+        "Irish": "audio/Irish/provide",
+        "Jamaica": "audio/Jamaica/provide",
+        "scot": "audio/scot/provide",
+        "general": "audio/uk/general/provide",
+        "Yorkshire": "audio/uk/Yorkshire/provide",
+        "rp": "audio/uk/rp/provide",
+        "us": "audio/us/us/provide",
+        "south": "audio/us/south/provide"
+    },
+    "country": {
+        "Irish": "audio/Irish/country",
+        "Jamaica": "audio/Jamaica/country",
+        "scot": "audio/scot/country",
+        "general": "audio/uk/general/country",
+        "Yorkshire": "audio/uk/Yorkshire/country",
+        "rp": "audio/uk/rp/country",
+        "us": "audio/us/us/country",
+        "south": "audio/us/south/country"
+    },
+    "hell": {
+        "Irish": "audio/Irish/hell",
+        "Jamaica": "audio/Jamaica/hell",
+        "scot": "audio/scot/hell",
+        "general": "audio/uk/general/hell",
+        "Yorkshire": "audio/uk/Yorkshire/hell",
+        "rp": "audio/uk/rp/hell",
+        "us": "audio/us/us/hell",
+        "south": "audio/us/south/hell"
+    },
+    "recent": {
+        "Irish": "audio/Irish/recent",
+        "Jamaica": "audio/Jamaica/recent",
+        "scot": "audio/scot/recent",
+        "general": "audio/uk/general/recent",
+        "Yorkshire": "audio/uk/Yorkshire/recent",
+        "rp": "audio/uk/rp/recent",
+        "us": "audio/us/us/recent",
+        "south": "audio/us/south/recent"
+    },
+    "city": {
+        "Irish": "audio/Irish/city",
+        "Jamaica": "audio/Jamaica/city",
+        "scot": "audio/scot/city",
+        "general": "audio/uk/general/city",
+        "Yorkshire": "audio/uk/Yorkshire/city",
+        "rp": "audio/uk/rp/city",
+        "us": "audio/us/us/city",
+        "south": "audio/us/south/city"
+    },
+    "hour": {
+        "Irish": "audio/Irish/hour",
+        "Jamaica": "audio/Jamaica/hour",
+        "scot": "audio/scot/hour",
+        "general": "audio/uk/general/hour",
+        "Yorkshire": "audio/uk/Yorkshire/hour",
+        "rp": "audio/uk/rp/hour",
+        "us": "audio/us/us/hour",
+        "south": "audio/us/south/hour"
+    },
+    "and": {
+        "Irish": "audio/Irish/and",
+        "Jamaica": "audio/Jamaica/and",
+        "scot": "audio/scot/and",
+        "general": "audio/uk/general/and",
+        "Yorkshire": "audio/uk/Yorkshire/and",
+        "rp": "audio/uk/rp/and",
+        "us": "audio/us/us/and",
+        "south": ""
+    },
+    "obvious": {
+        "Irish": "audio/Irish/obvious",
+        "Jamaica": "audio/Jamaica/obvious",
+        "scot": "audio/scot/obvious",
+        "general": "audio/uk/general/obvious",
+        "Yorkshire": "audio/uk/Yorkshire/obvious",
+        "rp": "audio/uk/rp/obvious",
+        "us": "audio/us/us/obvious",
+        "south": "audio/us/south/obvious"
+    },
+    "die": {
+        "Irish": "audio/Irish/die",
+        "Jamaica": "audio/Jamaica/die",
+        "scot": "audio/scot/die",
+        "general": "audio/uk/general/die",
+        "Yorkshire": "audio/uk/Yorkshire/die",
+        "rp": "audio/uk/rp/die",
+        "us": "audio/us/us/die",
+        "south": ""
+    },
+    "speed": {
+        "Irish": "audio/Irish/speed",
+        "Jamaica": "audio/Jamaica/speed",
+        "scot": "audio/scot/speed",
+        "general": "audio/uk/general/speed",
+        "Yorkshire": "audio/uk/Yorkshire/speed",
+        "rp": "audio/uk/rp/speed",
+        "us": "audio/us/us/speed",
+        "south": "audio/us/south/speed"
+    },
+    "bit": {
+        "Irish": "audio/Irish/bit",
+        "Jamaica": "audio/Jamaica/bit",
+        "scot": "audio/scot/bit",
+        "general": "audio/uk/general/bit",
+        "Yorkshire": "audio/uk/Yorkshire/bit",
+        "rp": "audio/uk/rp/bit",
+        "us": "audio/us/us/bit",
+        "south": ""
+    },
+    "yesterday": {
+        "Irish": "audio/Irish/yesterday",
+        "Jamaica": "audio/Jamaica/yesterday",
+        "scot": "audio/scot/yesterday",
+        "general": "audio/uk/general/yesterday",
+        "Yorkshire": "audio/uk/Yorkshire/yesterday",
+        "rp": "audio/uk/rp/yesterday",
+        "us": "audio/us/us/yesterday",
+        "south": "audio/us/south/yesterday"
+    },
+    "waste": {
+        "Irish": "audio/Irish/waste",
+        "Jamaica": "audio/Jamaica/waste",
+        "scot": "audio/scot/waste",
+        "general": "audio/uk/general/waste",
+        "Yorkshire": "audio/uk/Yorkshire/waste",
+        "rp": "audio/uk/rp/waste",
+        "us": "audio/us/us/waste",
+        "south": "audio/us/south/waste"
+    },
+    "perhaps": {
+        "Irish": "audio/Irish/perhaps",
+        "Jamaica": "audio/Jamaica/perhaps",
+        "scot": "audio/scot/perhaps",
+        "general": "audio/uk/general/perhaps",
+        "Yorkshire": "audio/uk/Yorkshire/perhaps",
+        "rp": "audio/uk/rp/perhaps",
+        "us": "audio/us/us/perhaps",
+        "south": "audio/us/south/perhaps"
+    },
+    "guess": {
+        "Irish": "audio/Irish/guess",
+        "Jamaica": "audio/Jamaica/guess",
+        "scot": "audio/scot/guess",
+        "general": "audio/uk/general/guess",
+        "Yorkshire": "audio/uk/Yorkshire/guess",
+        "rp": "audio/uk/rp/guess",
+        "us": "audio/us/us/guess",
+        "south": "audio/us/south/guess"
+    },
+    "big": {
+        "Irish": "audio/Irish/big",
+        "Jamaica": "audio/Jamaica/big",
+        "scot": "audio/scot/big",
+        "general": "audio/uk/general/big",
+        "Yorkshire": "audio/uk/Yorkshire/big",
+        "rp": "audio/uk/rp/big",
+        "us": "audio/us/us/big",
+        "south": ""
+    },
+    "slow": {
+        "Irish": "audio/Irish/slow",
+        "Jamaica": "audio/Jamaica/slow",
+        "scot": "audio/scot/slow",
+        "general": "audio/uk/general/slow",
+        "Yorkshire": "audio/uk/Yorkshire/slow",
+        "rp": "audio/uk/rp/slow",
+        "us": "audio/us/us/slow",
+        "south": "audio/us/south/slow"
+    },
+    "bed": {
+        "Irish": "audio/Irish/bed",
+        "Jamaica": "audio/Jamaica/bed",
+        "scot": "audio/scot/bed",
+        "general": "audio/uk/general/bed",
+        "Yorkshire": "audio/uk/Yorkshire/bed",
+        "rp": "audio/uk/rp/bed",
+        "us": "audio/us/us/bed",
+        "south": ""
+    },
+    "create": {
+        "Irish": "audio/Irish/create",
+        "Jamaica": "audio/Jamaica/create",
+        "scot": "audio/scot/create",
+        "general": "audio/uk/general/create",
+        "Yorkshire": "audio/uk/Yorkshire/create",
+        "rp": "audio/uk/rp/create",
+        "us": "audio/us/us/create",
+        "south": "audio/us/south/create"
+    },
+    "four": {
+        "Irish": "audio/Irish/four",
+        "Jamaica": "audio/Jamaica/four",
+        "scot": "audio/scot/four",
+        "general": "audio/uk/general/four",
+        "Yorkshire": "audio/uk/Yorkshire/four",
+        "rp": "audio/uk/rp/four",
+        "us": "audio/us/us/four",
+        "south": "audio/us/south/four"
+    },
+    "confer": {
+        "Irish": "audio/Irish/confer",
+        "Jamaica": "audio/Jamaica/confer",
+        "scot": "audio/scot/confer",
+        "general": "audio/uk/general/confer",
+        "Yorkshire": "audio/uk/Yorkshire/confer",
+        "rp": "audio/uk/rp/confer",
+        "us": "audio/us/us/confer",
+        "south": "audio/us/south/confer"
+    },
+    "present": {
+        "Irish": "audio/Irish/present",
+        "Jamaica": "audio/Jamaica/present",
+        "scot": "audio/scot/present",
+        "general": "audio/uk/general/present",
+        "Yorkshire": "audio/uk/Yorkshire/present",
+        "rp": "audio/uk/rp/present",
+        "us": "audio/us/us/present",
+        "south": "audio/us/south/present"
+    },
+    "thank": {
+        "Irish": "audio/Irish/thank",
+        "Jamaica": "audio/Jamaica/thank",
+        "scot": "audio/scot/thank",
+        "general": "audio/uk/general/thank",
+        "Yorkshire": "audio/uk/Yorkshire/thank",
+        "rp": "audio/uk/rp/thank",
+        "us": "audio/us/us/thank",
+        "south": "audio/us/south/thank"
+    },
+    "system": {
+        "Irish": "audio/Irish/system",
+        "Jamaica": "audio/Jamaica/system",
+        "scot": "audio/scot/system",
+        "general": "audio/uk/general/system",
+        "Yorkshire": "audio/uk/Yorkshire/system",
+        "rp": "audio/uk/rp/system",
+        "us": "audio/us/us/system",
+        "south": "audio/us/south/system"
+    },
+    "oppose": {
+        "Irish": "audio/Irish/oppose",
+        "Jamaica": "audio/Jamaica/oppose",
+        "scot": "audio/scot/oppose",
+        "general": "audio/uk/general/oppose",
+        "Yorkshire": "audio/uk/Yorkshire/oppose",
+        "rp": "audio/uk/rp/oppose",
+        "us": "audio/us/us/oppose",
+        "south": "audio/us/south/oppose"
+    },
+    "prepare": {
+        "Irish": "audio/Irish/prepare",
+        "Jamaica": "audio/Jamaica/prepare",
+        "scot": "audio/scot/prepare",
+        "general": "audio/uk/general/prepare",
+        "Yorkshire": "audio/uk/Yorkshire/prepare",
+        "rp": "audio/uk/rp/prepare",
+        "us": "audio/us/us/prepare",
+        "south": "audio/us/south/prepare"
+    },
+    "sign": {
+        "Irish": "audio/Irish/sign",
+        "Jamaica": "audio/Jamaica/sign",
+        "scot": "audio/scot/sign",
+        "general": "audio/uk/general/sign",
+        "Yorkshire": "audio/uk/Yorkshire/sign",
+        "rp": "audio/uk/rp/sign",
+        "us": "audio/us/us/sign",
+        "south": "audio/us/south/sign"
+    },
+    "assume": {
+        "Irish": "audio/Irish/assume",
+        "Jamaica": "audio/Jamaica/assume",
+        "scot": "audio/scot/assume",
+        "general": "audio/uk/general/assume",
+        "Yorkshire": "audio/uk/Yorkshire/assume",
+        "rp": "audio/uk/rp/assume",
+        "us": "audio/us/us/assume",
+        "south": ""
+    },
+    "commit": {
+        "Irish": "audio/Irish/commit",
+        "Jamaica": "audio/Jamaica/commit",
+        "scot": "audio/scot/commit",
+        "general": "audio/uk/general/commit",
+        "Yorkshire": "audio/uk/Yorkshire/commit",
+        "rp": "audio/uk/rp/commit",
+        "us": "audio/us/us/commit",
+        "south": "audio/us/south/commit"
+    },
+    "into": {
+        "Irish": "audio/Irish/into",
+        "Jamaica": "audio/Jamaica/into",
+        "scot": "audio/scot/into",
+        "general": "audio/uk/general/into",
+        "Yorkshire": "audio/uk/Yorkshire/into",
+        "rp": "audio/uk/rp/into",
+        "us": "audio/us/us/into",
+        "south": "audio/us/south/into"
+    },
+    "old": {
+        "Irish": "audio/Irish/old",
+        "Jamaica": "audio/Jamaica/old",
+        "scot": "audio/scot/old",
+        "general": "audio/uk/general/old",
+        "Yorkshire": "audio/uk/Yorkshire/old",
+        "rp": "audio/uk/rp/old",
+        "us": "audio/us/us/old",
+        "south": "audio/us/south/old"
+    },
+    "black": {
+        "Irish": "audio/Irish/black",
+        "Jamaica": "audio/Jamaica/black",
+        "scot": "audio/scot/black",
+        "general": "audio/uk/general/black",
+        "Yorkshire": "audio/uk/Yorkshire/black",
+        "rp": "audio/uk/rp/black",
+        "us": "audio/us/us/black",
+        "south": ""
+    },
+    "sunday": {
+        "Irish": "audio/Irish/sunday",
+        "Jamaica": "audio/Jamaica/sunday",
+        "scot": "audio/scot/sunday",
+        "general": "audio/uk/general/sunday",
+        "Yorkshire": "audio/uk/Yorkshire/sunday",
+        "rp": "audio/uk/rp/sunday",
+        "us": "audio/us/us/sunday",
+        "south": "audio/us/south/sunday"
+    },
+    "can": {
+        "Irish": "audio/Irish/can",
+        "Jamaica": "audio/Jamaica/can",
+        "scot": "audio/scot/can",
+        "general": "audio/uk/general/can",
+        "Yorkshire": "audio/uk/Yorkshire/can",
+        "rp": "audio/uk/rp/can",
+        "us": "audio/us/us/can",
+        "south": "audio/us/south/can"
+    },
+    "require": {
+        "Irish": "audio/Irish/require",
+        "Jamaica": "audio/Jamaica/require",
+        "scot": "audio/scot/require",
+        "general": "audio/uk/general/require",
+        "Yorkshire": "audio/uk/Yorkshire/require",
+        "rp": "audio/uk/rp/require",
+        "us": "audio/us/us/require",
+        "south": "audio/us/south/require"
+    },
+    "stick": {
+        "Irish": "audio/Irish/stick",
+        "Jamaica": "audio/Jamaica/stick",
+        "scot": "audio/scot/stick",
+        "general": "audio/uk/general/stick",
+        "Yorkshire": "audio/uk/Yorkshire/stick",
+        "rp": "audio/uk/rp/stick",
+        "us": "audio/us/us/stick",
+        "south": "audio/us/south/stick"
+    },
+    "bottle": {
+        "Irish": "audio/Irish/bottle",
+        "Jamaica": "audio/Jamaica/bottle",
+        "scot": "audio/scot/bottle",
+        "general": "audio/uk/general/bottle",
+        "Yorkshire": "audio/uk/Yorkshire/bottle",
+        "rp": "audio/uk/rp/bottle",
+        "us": "audio/us/us/bottle",
+        "south": ""
+    },
+    "join": {
+        "Irish": "audio/Irish/join",
+        "Jamaica": "audio/Jamaica/join",
+        "scot": "audio/scot/join",
+        "general": "audio/uk/general/join",
+        "Yorkshire": "audio/uk/Yorkshire/join",
+        "rp": "audio/uk/rp/join",
+        "us": "audio/us/us/join",
+        "south": "audio/us/south/join"
+    },
+    "away": {
+        "Irish": "audio/Irish/away",
+        "Jamaica": "audio/Jamaica/away",
+        "scot": "audio/scot/away",
+        "general": "audio/uk/general/away",
+        "Yorkshire": "audio/uk/Yorkshire/away",
+        "rp": "audio/uk/rp/away",
+        "us": "audio/us/us/away",
+        "south": ""
+    },
+    "kind": {
+        "Irish": "audio/Irish/kind",
+        "Jamaica": "audio/Jamaica/kind",
+        "scot": "audio/scot/kind",
+        "general": "audio/uk/general/kind",
+        "Yorkshire": "audio/uk/Yorkshire/kind",
+        "rp": "audio/uk/rp/kind",
+        "us": "audio/us/us/kind",
+        "south": "audio/us/south/kind"
+    },
+    "machine": {
+        "Irish": "audio/Irish/machine",
+        "Jamaica": "audio/Jamaica/machine",
+        "scot": "audio/scot/machine",
+        "general": "audio/uk/general/machine",
+        "Yorkshire": "audio/uk/Yorkshire/machine",
+        "rp": "audio/uk/rp/machine",
+        "us": "audio/us/us/machine",
+        "south": "audio/us/south/machine"
+    },
+    "support": {
+        "Irish": "audio/Irish/support",
+        "Jamaica": "audio/Jamaica/support",
+        "scot": "audio/scot/support",
+        "general": "audio/uk/general/support",
+        "Yorkshire": "audio/uk/Yorkshire/support",
+        "rp": "audio/uk/rp/support",
+        "us": "audio/us/us/support",
+        "south": "audio/us/south/support"
+    },
+    "class": {
+        "Irish": "audio/Irish/class",
+        "Jamaica": "audio/Jamaica/class",
+        "scot": "audio/scot/class",
+        "general": "audio/uk/general/class",
+        "Yorkshire": "audio/uk/Yorkshire/class",
+        "rp": "audio/uk/rp/class",
+        "us": "audio/us/us/class",
+        "south": "audio/us/south/class"
+    },
+    "friday": {
+        "Irish": "audio/Irish/friday",
+        "Jamaica": "audio/Jamaica/friday",
+        "scot": "audio/scot/friday",
+        "general": "audio/uk/general/friday",
+        "Yorkshire": "audio/uk/Yorkshire/friday",
+        "rp": "audio/uk/rp/friday",
+        "us": "audio/us/us/friday",
+        "south": "audio/us/south/friday"
+    },
+    "probable": {
+        "Irish": "audio/Irish/probable",
+        "Jamaica": "audio/Jamaica/probable",
+        "scot": "audio/scot/probable",
+        "general": "audio/uk/general/probable",
+        "Yorkshire": "audio/uk/Yorkshire/probable",
+        "rp": "audio/uk/rp/probable",
+        "us": "audio/us/us/probable",
+        "south": "audio/us/south/probable"
+    },
+    "engine": {
+        "Irish": "audio/Irish/engine",
+        "Jamaica": "audio/Jamaica/engine",
+        "scot": "audio/scot/engine",
+        "general": "audio/uk/general/engine",
+        "Yorkshire": "audio/uk/Yorkshire/engine",
+        "rp": "audio/uk/rp/engine",
+        "us": "audio/us/us/engine",
+        "south": "audio/us/south/engine"
+    },
+    "similar": {
+        "Irish": "audio/Irish/similar",
+        "Jamaica": "audio/Jamaica/similar",
+        "scot": "audio/scot/similar",
+        "general": "audio/uk/general/similar",
+        "Yorkshire": "audio/uk/Yorkshire/similar",
+        "rp": "audio/uk/rp/similar",
+        "us": "audio/us/us/similar",
+        "south": "audio/us/south/similar"
+    },
+    "individual": {
+        "Irish": "audio/Irish/individual",
+        "Jamaica": "audio/Jamaica/individual",
+        "scot": "audio/scot/individual",
+        "general": "audio/uk/general/individual",
+        "Yorkshire": "audio/uk/Yorkshire/individual",
+        "rp": "audio/uk/rp/individual",
+        "us": "audio/us/us/individual",
+        "south": "audio/us/south/individual"
+    },
+    "place": {
+        "Irish": "audio/Irish/place",
+        "Jamaica": "audio/Jamaica/place",
+        "scot": "audio/scot/place",
+        "general": "audio/uk/general/place",
+        "Yorkshire": "audio/uk/Yorkshire/place",
+        "rp": "audio/uk/rp/place",
+        "us": "audio/us/us/place",
+        "south": "audio/us/south/place"
+    },
+    "war": {
+        "Irish": "audio/Irish/war",
+        "Jamaica": "audio/Jamaica/war",
+        "scot": "audio/scot/war",
+        "general": "audio/uk/general/war",
+        "Yorkshire": "audio/uk/Yorkshire/war",
+        "rp": "audio/uk/rp/war",
+        "us": "audio/us/us/war",
+        "south": "audio/us/south/war"
+    },
+    "pretty": {
+        "Irish": "audio/Irish/pretty",
+        "Jamaica": "audio/Jamaica/pretty",
+        "scot": "audio/scot/pretty",
+        "general": "audio/uk/general/pretty",
+        "Yorkshire": "audio/uk/Yorkshire/pretty",
+        "rp": "audio/uk/rp/pretty",
+        "us": "audio/us/us/pretty",
+        "south": "audio/us/south/pretty"
+    },
+    "happy": {
+        "Irish": "audio/Irish/happy",
+        "Jamaica": "audio/Jamaica/happy",
+        "scot": "audio/scot/happy",
+        "general": "audio/uk/general/happy",
+        "Yorkshire": "audio/uk/Yorkshire/happy",
+        "rp": "audio/uk/rp/happy",
+        "us": "audio/us/us/happy",
+        "south": "audio/us/south/happy"
+    },
+    "final": {
+        "Irish": "audio/Irish/final",
+        "Jamaica": "audio/Jamaica/final",
+        "scot": "audio/scot/final",
+        "general": "audio/uk/general/final",
+        "Yorkshire": "audio/uk/Yorkshire/final",
+        "rp": "audio/uk/rp/final",
+        "us": "audio/us/us/final",
+        "south": "audio/us/south/final"
+    },
+    "able": {
+        "Irish": "audio/Irish/able",
+        "Jamaica": "audio/Jamaica/able",
+        "scot": "audio/scot/able",
+        "general": "audio/uk/general/able",
+        "Yorkshire": "audio/uk/Yorkshire/able",
+        "rp": "audio/uk/rp/able",
+        "us": "audio/us/us/able",
+        "south": ""
+    },
+    "card": {
+        "Irish": "audio/Irish/card",
+        "Jamaica": "audio/Jamaica/card",
+        "scot": "audio/scot/card",
+        "general": "audio/uk/general/card",
+        "Yorkshire": "audio/uk/Yorkshire/card",
+        "rp": "audio/uk/rp/card",
+        "us": "audio/us/us/card",
+        "south": "audio/us/south/card"
+    },
+    "world": {
+        "Irish": "audio/Irish/world",
+        "Jamaica": "audio/Jamaica/world",
+        "scot": "audio/scot/world",
+        "general": "audio/uk/general/world",
+        "Yorkshire": "audio/uk/Yorkshire/world",
+        "rp": "audio/uk/rp/world",
+        "us": "audio/us/us/world",
+        "south": "audio/us/south/world"
+    },
+    "necessary": {
+        "Irish": "audio/Irish/necessary",
+        "Jamaica": "audio/Jamaica/necessary",
+        "scot": "audio/scot/necessary",
+        "general": "audio/uk/general/necessary",
+        "Yorkshire": "audio/uk/Yorkshire/necessary",
+        "rp": "audio/uk/rp/necessary",
+        "us": "audio/us/us/necessary",
+        "south": "audio/us/south/necessary"
+    },
+    "little": {
+        "Irish": "audio/Irish/little",
+        "Jamaica": "audio/Jamaica/little",
+        "scot": "audio/scot/little",
+        "general": "audio/uk/general/little",
+        "Yorkshire": "audio/uk/Yorkshire/little",
+        "rp": "audio/uk/rp/little",
+        "us": "audio/us/us/little",
+        "south": "audio/us/south/little"
+    },
+    "mrs": {
+        "Irish": "audio/Irish/mrs",
+        "Jamaica": "audio/Jamaica/mrs",
+        "scot": "audio/scot/mrs",
+        "general": "audio/uk/general/mrs",
+        "Yorkshire": "audio/uk/Yorkshire/mrs",
+        "rp": "audio/uk/rp/mrs",
+        "south": "audio/us/south/mrs",
+        "us": ""
+    },
+    "grand": {
+        "Irish": "audio/Irish/grand",
+        "Jamaica": "audio/Jamaica/grand",
+        "scot": "audio/scot/grand",
+        "general": "audio/uk/general/grand",
+        "Yorkshire": "audio/uk/Yorkshire/grand",
+        "rp": "audio/uk/rp/grand",
+        "us": "audio/us/us/grand",
+        "south": "audio/us/south/grand"
+    },
+    "committee": {
+        "Irish": "audio/Irish/committee",
+        "Jamaica": "audio/Jamaica/committee",
+        "scot": "audio/scot/committee",
+        "general": "audio/uk/general/committee",
+        "Yorkshire": "audio/uk/Yorkshire/committee",
+        "rp": "audio/uk/rp/committee",
+        "us": "audio/us/us/committee",
+        "south": "audio/us/south/committee"
+    },
+    "ten": {
+        "Irish": "audio/Irish/ten",
+        "Jamaica": "audio/Jamaica/ten",
+        "scot": "audio/scot/ten",
+        "general": "audio/uk/general/ten",
+        "Yorkshire": "audio/uk/Yorkshire/ten",
+        "rp": "audio/uk/rp/ten",
+        "us": "audio/us/us/ten",
+        "south": "audio/us/south/ten"
+    },
+    "paper": {
+        "Irish": "audio/Irish/paper",
+        "Jamaica": "audio/Jamaica/paper",
+        "scot": "audio/scot/paper",
+        "general": "audio/uk/general/paper",
+        "Yorkshire": "audio/uk/Yorkshire/paper",
+        "rp": "audio/uk/rp/paper",
+        "us": "audio/us/us/paper",
+        "south": "audio/us/south/paper"
+    },
+    "record": {
+        "Irish": "audio/Irish/record",
+        "Jamaica": "audio/Jamaica/record",
+        "scot": "audio/scot/record",
+        "general": "audio/uk/general/record",
+        "Yorkshire": "audio/uk/Yorkshire/record",
+        "rp": "audio/uk/rp/record",
+        "us": "audio/us/us/record",
+        "south": "audio/us/south/record"
+    },
+    "good": {
+        "Irish": "audio/Irish/good",
+        "Jamaica": "audio/Jamaica/good",
+        "scot": "audio/scot/good",
+        "general": "audio/uk/general/good",
+        "Yorkshire": "audio/uk/Yorkshire/good",
+        "rp": "audio/uk/rp/good",
+        "us": "audio/us/us/good",
+        "south": "audio/us/south/good"
+    },
+    "sing": {
+        "Irish": "audio/Irish/sing",
+        "Jamaica": "audio/Jamaica/sing",
+        "scot": "audio/scot/sing",
+        "general": "audio/uk/general/sing",
+        "Yorkshire": "audio/uk/Yorkshire/sing",
+        "rp": "audio/uk/rp/sing",
+        "us": "audio/us/us/sing",
+        "south": "audio/us/south/sing"
+    },
+    "get": {
+        "Irish": "audio/Irish/get",
+        "Jamaica": "audio/Jamaica/get",
+        "scot": "audio/scot/get",
+        "general": "audio/uk/general/get",
+        "Yorkshire": "audio/uk/Yorkshire/get",
+        "rp": "audio/uk/rp/get",
+        "us": "audio/us/us/get",
+        "south": "audio/us/south/get"
+    },
+    "spell": {
+        "Irish": "audio/Irish/spell",
+        "Jamaica": "audio/Jamaica/spell",
+        "scot": "audio/scot/spell",
+        "general": "audio/uk/general/spell",
+        "Yorkshire": "audio/uk/Yorkshire/spell",
+        "rp": "audio/uk/rp/spell",
+        "us": "audio/us/us/spell",
+        "south": "audio/us/south/spell"
+    },
+    "cheap": {
+        "Irish": "audio/Irish/cheap",
+        "Jamaica": "audio/Jamaica/cheap",
+        "scot": "audio/scot/cheap",
+        "general": "audio/uk/general/cheap",
+        "Yorkshire": "audio/uk/Yorkshire/cheap",
+        "rp": "audio/uk/rp/cheap",
+        "us": "audio/us/us/cheap",
+        "south": "audio/us/south/cheap"
+    },
+    "key": {
+        "Irish": "audio/Irish/key",
+        "Jamaica": "audio/Jamaica/key",
+        "scot": "audio/scot/key",
+        "general": "audio/uk/general/key",
+        "Yorkshire": "audio/uk/Yorkshire/key",
+        "rp": "audio/uk/rp/key",
+        "us": "audio/us/us/key",
+        "south": "audio/us/south/key"
+    },
+    "fortune": {
+        "Irish": "audio/Irish/fortune",
+        "Jamaica": "audio/Jamaica/fortune",
+        "scot": "audio/scot/fortune",
+        "general": "audio/uk/general/fortune",
+        "Yorkshire": "audio/uk/Yorkshire/fortune",
+        "rp": "audio/uk/rp/fortune",
+        "us": "audio/us/us/fortune",
+        "south": "audio/us/south/fortune"
+    },
+    "off": {
+        "Irish": "audio/Irish/off",
+        "Jamaica": "audio/Jamaica/off",
+        "scot": "audio/scot/off",
+        "general": "audio/uk/general/off",
+        "Yorkshire": "audio/uk/Yorkshire/off",
+        "rp": "audio/uk/rp/off",
+        "us": "audio/us/us/off",
+        "south": "audio/us/south/off"
+    },
+    "at": {
+        "Irish": "audio/Irish/at",
+        "Jamaica": "audio/Jamaica/at",
+        "scot": "audio/scot/at",
+        "general": "audio/uk/general/at",
+        "Yorkshire": "audio/uk/Yorkshire/at",
+        "rp": "audio/uk/rp/at",
+        "us": "audio/us/us/at",
+        "south": ""
+    },
+    "give": {
+        "Irish": "audio/Irish/give",
+        "Jamaica": "audio/Jamaica/give",
+        "scot": "audio/scot/give",
+        "general": "audio/uk/general/give",
+        "Yorkshire": "audio/uk/Yorkshire/give",
+        "rp": "audio/uk/rp/give",
+        "us": "audio/us/us/give",
+        "south": "audio/us/south/give"
+    },
+    "question": {
+        "Irish": "audio/Irish/question",
+        "Jamaica": "audio/Jamaica/question",
+        "scot": "audio/scot/question",
+        "general": "audio/uk/general/question",
+        "Yorkshire": "audio/uk/Yorkshire/question",
+        "rp": "audio/uk/rp/question",
+        "us": "audio/us/us/question",
+        "south": "audio/us/south/question"
+    },
+    "follow": {
+        "Irish": "audio/Irish/follow",
+        "Jamaica": "audio/Jamaica/follow",
+        "scot": "audio/scot/follow",
+        "general": "audio/uk/general/follow",
+        "Yorkshire": "audio/uk/Yorkshire/follow",
+        "rp": "audio/uk/rp/follow",
+        "us": "audio/us/us/follow",
+        "south": "audio/us/south/follow"
+    },
+    "sleep": {
+        "Irish": "audio/Irish/sleep",
+        "Jamaica": "audio/Jamaica/sleep",
+        "scot": "audio/scot/sleep",
+        "general": "audio/uk/general/sleep",
+        "Yorkshire": "audio/uk/Yorkshire/sleep",
+        "rp": "audio/uk/rp/sleep",
+        "us": "audio/us/us/sleep",
+        "south": "audio/us/south/sleep"
+    },
+    "wide": {
+        "Irish": "audio/Irish/wide",
+        "Jamaica": "audio/Jamaica/wide",
+        "scot": "audio/scot/wide",
+        "general": "audio/uk/general/wide",
+        "Yorkshire": "audio/uk/Yorkshire/wide",
+        "rp": "audio/uk/rp/wide",
+        "us": "audio/us/us/wide",
+        "south": "audio/us/south/wide"
+    },
+    "health": {
+        "Irish": "audio/Irish/health",
+        "Jamaica": "audio/Jamaica/health",
+        "scot": "audio/scot/health",
+        "general": "audio/uk/general/health",
+        "Yorkshire": "audio/uk/Yorkshire/health",
+        "rp": "audio/uk/rp/health",
+        "us": "audio/us/us/health",
+        "south": "audio/us/south/health"
+    },
+    "fire": {
+        "Irish": "audio/Irish/fire",
+        "Jamaica": "audio/Jamaica/fire",
+        "scot": "audio/scot/fire",
+        "general": "audio/uk/general/fire",
+        "Yorkshire": "audio/uk/Yorkshire/fire",
+        "rp": "audio/uk/rp/fire",
+        "us": "audio/us/us/fire",
+        "south": "audio/us/south/fire"
+    },
+    "double": {
+        "Irish": "audio/Irish/double",
+        "Jamaica": "audio/Jamaica/double",
+        "scot": "audio/scot/double",
+        "general": "audio/uk/general/double",
+        "Yorkshire": "audio/uk/Yorkshire/double",
+        "rp": "audio/uk/rp/double",
+        "us": "audio/us/us/double",
+        "south": "audio/us/south/double"
+    },
+    "after": {
+        "Irish": "audio/Irish/after",
+        "Jamaica": "audio/Jamaica/after",
+        "scot": "audio/scot/after",
+        "general": "audio/uk/general/after",
+        "Yorkshire": "audio/uk/Yorkshire/after",
+        "rp": "audio/uk/rp/after",
+        "us": "audio/us/us/after",
+        "south": ""
+    },
+    "experience": {
+        "Irish": "audio/Irish/experience",
+        "Jamaica": "audio/Jamaica/experience",
+        "scot": "audio/scot/experience",
+        "general": "audio/uk/general/experience",
+        "Yorkshire": "audio/uk/Yorkshire/experience",
+        "us": "audio/us/us/experience",
+        "south": "audio/us/south/experience",
+        "rp": ""
+    },
+    "ask": {
+        "Irish": "audio/Irish/ask",
+        "Jamaica": "audio/Jamaica/ask",
+        "scot": "audio/scot/ask",
+        "general": "audio/uk/general/ask",
+        "Yorkshire": "audio/uk/Yorkshire/ask",
+        "rp": "audio/uk/rp/ask",
+        "us": "audio/us/us/ask",
+        "south": ""
+    },
+    "advertise": {
+        "Irish": "audio/Irish/advertise",
+        "Jamaica": "audio/Jamaica/advertise",
+        "scot": "audio/scot/advertise",
+        "general": "audio/uk/general/advertise",
+        "Yorkshire": "audio/uk/Yorkshire/advertise",
+        "rp": "audio/uk/rp/advertise",
+        "us": "audio/us/us/advertise",
+        "south": ""
+    },
+    "proper": {
+        "Irish": "audio/Irish/proper",
+        "Jamaica": "audio/Jamaica/proper",
+        "scot": "audio/scot/proper",
+        "general": "audio/uk/general/proper",
+        "Yorkshire": "audio/uk/Yorkshire/proper",
+        "rp": "audio/uk/rp/proper",
+        "us": "audio/us/us/proper",
+        "south": "audio/us/south/proper"
+    },
+    "fair": {
+        "Irish": "audio/Irish/fair",
+        "Jamaica": "audio/Jamaica/fair",
+        "scot": "audio/scot/fair",
+        "general": "audio/uk/general/fair",
+        "Yorkshire": "audio/uk/Yorkshire/fair",
+        "us": "audio/us/us/fair",
+        "south": "audio/us/south/fair",
+        "rp": ""
+    },
+    "flat": {
+        "Irish": "audio/Irish/flat",
+        "Jamaica": "audio/Jamaica/flat",
+        "scot": "audio/scot/flat",
+        "general": "audio/uk/general/flat",
+        "Yorkshire": "audio/uk/Yorkshire/flat",
+        "rp": "audio/uk/rp/flat",
+        "us": "audio/us/us/flat",
+        "south": "audio/us/south/flat"
+    },
+    "position": {
+        "Irish": "audio/Irish/position",
+        "Jamaica": "audio/Jamaica/position",
+        "scot": "audio/scot/position",
+        "general": "audio/uk/general/position",
+        "Yorkshire": "audio/uk/Yorkshire/position",
+        "rp": "audio/uk/rp/position",
+        "us": "audio/us/us/position",
+        "south": "audio/us/south/position"
+    },
+    "type": {
+        "Irish": "audio/Irish/type",
+        "Jamaica": "audio/Jamaica/type",
+        "scot": "audio/scot/type",
+        "general": "audio/uk/general/type",
+        "Yorkshire": "audio/uk/Yorkshire/type",
+        "rp": "audio/uk/rp/type",
+        "us": "audio/us/us/type",
+        "south": "audio/us/south/type"
+    },
+    "doubt": {
+        "Irish": "audio/Irish/doubt",
+        "Jamaica": "audio/Jamaica/doubt",
+        "scot": "audio/scot/doubt",
+        "general": "audio/uk/general/doubt",
+        "Yorkshire": "audio/uk/Yorkshire/doubt",
+        "rp": "audio/uk/rp/doubt",
+        "us": "audio/us/us/doubt",
+        "south": "audio/us/south/doubt"
+    },
+    "dinner": {
+        "Jamaica": "audio/Jamaica/dinner",
+        "scot": "audio/scot/dinner",
+        "general": "audio/uk/general/dinner",
+        "Yorkshire": "audio/uk/Yorkshire/dinner",
+        "rp": "audio/uk/rp/dinner",
+        "us": "audio/us/us/dinner",
+        "Irish": "",
+        "south": ""
+    }
+}

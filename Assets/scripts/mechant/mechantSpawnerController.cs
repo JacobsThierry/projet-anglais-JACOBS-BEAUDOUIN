@@ -5,9 +5,25 @@ using UnityEngine;
 public class mechantSpawnerController : MonoBehaviour
 {
 
+    private static List<string> accents = new List<string>{"Irish", "Jamaica", "scot", "general", "Yorkshire", "rp", "us", "south"};
+
+    private enum accent
+            {
+                Irish,
+                Jamaica,
+                Scottish,
+                UK,
+                UK_Yorkshire,
+                UK_Standard,
+                US,
+                US_South
+
+            }
     public GameObject mechant;
 
     public GameObject mechantQuestion;
+
+    public GameObject mechantAudio;
 
     public float timer;
 
@@ -34,7 +50,9 @@ public class mechantSpawnerController : MonoBehaviour
 
             if (Random.Range(0, 2) < 1)
             {
-                mcht = Instantiate(mechantQuestion);
+                mcht = Instantiate(mechantAudio);
+                mcht.GetComponent<MechantAudioController>().NewStart(accents[0]);
+                
             }
             else
             {
