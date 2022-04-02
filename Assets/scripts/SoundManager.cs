@@ -94,7 +94,6 @@ public class SoundManager : MonoBehaviour
 
       if (asMusique != null)
       {
-         Debug.Log(musiqueOn);
          asMusique.volume = musiqueOn ? volume : 0;
       }
 
