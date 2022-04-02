@@ -5,21 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
 
-        asyncLoad = SceneManager.LoadSceneAsync("Game");
-        asyncLoad.allowSceneActivation = false;
-    }
+   public GameObject gameModeChoice;
 
-    AsyncOperation asyncLoad;
+   // Start is called before the first frame update
+   void Start()
+   {
+
+      asyncLoad = SceneManager.LoadSceneAsync("Game");
+      asyncLoad.allowSceneActivation = false;
+   }
+
+   AsyncOperation asyncLoad;
 
 
 
 
-    public void Jouer()
-    {
-        asyncLoad.allowSceneActivation = true;
-    }
+   public void Jouer()
+   {
+
+      gameModeChoice.SetActive(true);
+
+      //   asyncLoad.allowSceneActivation = true;
+   }
 }
