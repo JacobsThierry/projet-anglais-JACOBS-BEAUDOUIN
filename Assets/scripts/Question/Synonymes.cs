@@ -5,24 +5,20 @@ using UnityEngine;
 public class Synonymes
 {
     public string mot;
-    public List<List<string>> synonymes;
-
-    public List<string> definitions;
-
-    public Synonymes(string mot, List<List<string>> synonymes, List<string> definitions)
+    public JSONObject json;
+    public Synonymes(string mot, JSONObject json)
     {
         this.mot = mot;
-        this.synonymes = synonymes;
-        this.definitions = definitions;
+        this.json = json;
     }
 
     public string getFirstDefinition(){
-        return definitions[0];
+        return json.definition[0];
     }
 
     public List<string> getAllSynonyms(){
         List<string> allSynonyms = new List<string>();
-        foreach(List<string> list in synonymes){
+        foreach(List<string> list in json.synonyms){
 
             foreach(string elem in list){
 

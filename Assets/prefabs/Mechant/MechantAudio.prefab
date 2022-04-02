@@ -174,7 +174,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: 
   question: 
-  path: 
 --- !u!114 &8430972838779156833
 MonoBehaviour:
   m_ObjectHideFlags: 0

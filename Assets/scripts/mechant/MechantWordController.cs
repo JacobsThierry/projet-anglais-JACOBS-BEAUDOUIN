@@ -6,8 +6,6 @@ using QuickPool;
 public class MechantWordController : MonoBehaviour
 {
 
-
-
     protected TMPro.TextMeshPro textMeshPro;
 
     public string word;
@@ -62,7 +60,7 @@ public class MechantWordController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        word = wordManager.getWord();
+        word = wordManager.getWordHard();
         textMeshPro = GetComponent<TMPro.TextMeshPro>();
 
         updateGraphics();
@@ -110,4 +108,5 @@ public class MechantWordController : MonoBehaviour
     {
 
     }
+
 }

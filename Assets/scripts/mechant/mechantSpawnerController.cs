@@ -21,9 +21,19 @@ public class mechantSpawnerController : MonoBehaviour
             }
     public GameObject mechant;
 
+    public GameObject mechantEasy;
+
+    public GameObject mechantHard;
+
+    public GameObject mechantSynonymeEasy;
+
+    public GameObject mechantSynonymeHard;
+
+
     public GameObject mechantQuestion;
 
     public GameObject mechantAudio;
+
 
     public float timer;
 
@@ -56,7 +66,7 @@ public class mechantSpawnerController : MonoBehaviour
             }
             else
             {
-                mcht = Instantiate(mechant);
+                mcht = Instantiate(mechantSynonymeEasy);
             }
 
 

@@ -9,15 +9,20 @@ using System.Linq;
 public class JsonLoader
 {
 
-    Dictionary<String, JSONObject> synonymes;
+    public Dictionary<String, JSONObject> synonymes;
 
-    Dictionary<String, JSONAudio> audios;
+    public Dictionary<String, JSONObject> synonymesHard;
+
+    public Dictionary<String, JSONAudio> audios;
 
     public JsonLoader()
     {
 
         string text = File.ReadAllText("./Assets/Resources/synonymes/synonymesCommon.json");
         synonymes = JsonConvert.DeserializeObject<Dictionary<String, JSONObject>>(text);
+
+        string hard = File.ReadAllText("./Assets/Resources/synonymes/synonymes.json");
+        synonymesHard = JsonConvert.DeserializeObject<Dictionary<String, JSONObject>>(hard);
 
         string text2 = File.ReadAllText("./Assets/Resources/audio/dicoWR.json");
         audios = JsonConvert.DeserializeObject<Dictionary<String, JSONAudio>>(text2);
@@ -30,8 +35,14 @@ public class JsonLoader
 	    int index = random.Next(synonymes.Count);
         KeyValuePair<String, JSONObject> pair = synonymes.ElementAt(index);
         return pair.Key;
-        // return synonymes["health"].synonyms[0][0];
 
+    }
+
+    public string getRandomHardWords(){
+        System.Random random = new System.Random();
+	    int index = random.Next(synonymesHard.Count);
+        KeyValuePair<String, JSONObject> pair = synonymesHard.ElementAt(index);
+        return pair.Key;
     }
 
     public List<string> getCommonDefinitionLists(string str){
@@ -43,6 +54,15 @@ public class JsonLoader
             return null;
         }
 
+    }
+
+    public List<string> getHardDefinitionLists(string str){
+        if(synonymesHard.ContainsKey(str)){
+            return synonymesHard[str].definition;
+        }
+        else{
+            return null;
+        }
     }
 
     public List<List<string>> getCommonSynonymesLists(string str){

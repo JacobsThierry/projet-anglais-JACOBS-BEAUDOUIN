@@ -13,7 +13,7 @@ public class SoundManager : MonoBehaviour
    private AudioSource asMusique;
 
 
-   private bool _musiqueOn = true;
+   private bool _musiqueOn = false;
 
    public AudioClip musique;
 
@@ -37,6 +37,7 @@ public class SoundManager : MonoBehaviour
       }
    }
 
+   
 
    public void setupMusique()
    {

@@ -24,22 +24,33 @@ public class wordManager
         new Question("Quelle est la capitale de la france ?", "Paris")
 };
 
-    public static string getWord()
+    public static string getWordEasy()
     {
-        // string word = jsonLoader.getRandomCommonWords();
-        // test
-        string word = jsonLoader.getRandomWordForAudio(accents[0]);
+        string word = jsonLoader.getRandomCommonWords();
         return word;
     }
 
-    public static Synonymes getSynonymes()
+    public static string getWordHard(){
+        string word = jsonLoader.getRandomHardWords();
+        return word;
+    }
+
+    public static Synonymes getSynonymesEasy()
     {
         string word = jsonLoader.getRandomCommonWords();
-        List<List<string>> synonymes = jsonLoader.getCommonSynonymesLists(word);
-        List<string> definition = jsonLoader.getCommonDefinitionLists(word);
-        Synonymes synonymes1 = new Synonymes(word,synonymes,definition);
+        JSONObject json = jsonLoader.synonymes[word];
+        Synonymes synonymes1 = new Synonymes(word,json);
         return synonymes1;
     }
+
+    public static Synonymes getSynonymesHard()
+    {
+        string word = jsonLoader.getRandomHardWords();
+        JSONObject json = jsonLoader.synonymes[word];
+        Synonymes synonymes1 = new Synonymes(word,json);
+        return synonymes1;
+    }
+    
 
 
     public static Question getQuestion()
@@ -47,7 +58,7 @@ public class wordManager
         return questions[Random.Range(0, questions.Length)];
     }
 
-    public static string getWordForSynonyms(){
+    public static string getWordForSynonyms(){ // easy mode or synonyms
         string word = jsonLoader.getRandomCommonWords();
         return word;
     }
@@ -60,6 +71,31 @@ public class wordManager
     public static string getAudioFromWord(string word, string accent){
         string audio = jsonLoader.getAudioFromWord(word, accent);
         return audio;
+    }
+
+
+    public static string getDefEasy(string word){
+        string def ="";
+        List<string> liste = jsonLoader.getCommonDefinitionLists(word);
+        int longueur = liste.Count;
+        for(int i = 0; i < longueur; i++){
+            def += "Definition n°" + i.ToString() + " :\n";
+            def += liste[i];
+            def += "\n";
+        }
+        return def;
+    }
+
+    public static string getDefHard(string word){
+        string def ="";
+        List<string> liste = jsonLoader.getHardDefinitionLists(word);
+        int longueur = liste.Count;
+        for(int i = 0; i < longueur; i++){
+            def += "Definition n°" + i.ToString() + " :\n";
+            def += liste[i];
+            def += "\n";
+        }
+        return def;
     }
 
 
