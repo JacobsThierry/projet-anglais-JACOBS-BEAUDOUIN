@@ -8,6 +8,8 @@ public class ButtonsController : MonoBehaviour
 
    public GameObject gameModeChoice;
 
+   public GameObject settings;
+
    // Start is called before the first frame update
    void Start()
    {
@@ -19,13 +21,16 @@ public class ButtonsController : MonoBehaviour
    AsyncOperation asyncLoad;
 
 
+   public void Settings()
+   {
+      settings.SetActive(true);
+      //   asyncLoad.allowSceneActivation = true;
+   }
 
 
    public void Jouer()
    {
-
       gameModeChoice.SetActive(true);
-
       //   asyncLoad.allowSceneActivation = true;
    }
 }
