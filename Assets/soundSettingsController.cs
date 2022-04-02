@@ -12,6 +12,7 @@ public class soundSettingsController : MonoBehaviour
    private SoundManager soundManager;
 
 
+   public UnityEngine.UI.Toggle music;
    // Start is called before the first frame update
    void Start()
    {
@@ -29,6 +30,13 @@ public class soundSettingsController : MonoBehaviour
          soundManager.volume = v;
       });
 
+      music.isOn = soundManager.musiqueOn;
+
+      music.onValueChanged.AddListener((bool b) =>
+      {
+         soundManager.musiqueOn = b;
+      });
+
    }
 
 
@@ -39,6 +47,7 @@ public class soundSettingsController : MonoBehaviour
       slider.value = soundManager.volume;
 
       image.sprite = sprites[Mathf.Max(0, Mathf.RoundToInt((slider.value * (sprites.Count - 1))))];
+      music.isOn = soundManager.musiqueOn;
    }
 
    // Update is called once per frame
