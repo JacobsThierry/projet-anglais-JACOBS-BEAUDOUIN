@@ -61,7 +61,11 @@ public class MechantAudioHardController : MechantWordController
 
         textMeshPro.richText = true;
 
-        textMeshPro.text = question + '\n';
+        textMeshPro.text = "<color=black>";
+
+        textMeshPro.text += question + '\n';
+
+        textMeshPro.text += "</color>";
 
         textMeshPro.text += "<color=red>";
 
@@ -71,6 +75,7 @@ public class MechantAudioHardController : MechantWordController
         }
 
         textMeshPro.text += "</color>";
+        
 
 
         for (int i = index; i < word.Length; i++)

@@ -61,7 +61,11 @@ public class MechantAudioFindAccentController : MechantWordController
 
         textMeshPro.richText = true;
 
-        textMeshPro.text = question + '\n';
+        textMeshPro.text = "<color=black>";
+
+        textMeshPro.text += question + '\n';
+
+        textMeshPro.text += "</color>";
 
         textMeshPro.text += "<color=red>";
 
@@ -73,10 +77,15 @@ public class MechantAudioFindAccentController : MechantWordController
         textMeshPro.text += "</color>";
 
 
+        
+        textMeshPro.text += "<color=black>";
+
         for (int i = index; i < word.Length; i++)
         {
             textMeshPro.text += "_ ";
         }
+
+         textMeshPro.text += "</color>";
 
     }
 
