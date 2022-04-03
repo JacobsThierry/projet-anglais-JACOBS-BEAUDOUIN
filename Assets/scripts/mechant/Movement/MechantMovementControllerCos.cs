@@ -5,20 +5,20 @@ using UnityEngine;
 public class MechantMovementControllerCos : MonoBehaviour
 {
 
-    private float timeAlive;
+   private float timeAlive;
 
-    public float amplitude = 0.05f;
+   public float amplitude = 0.01f;
 
 
-    private void Start()
-    {
-        timeAlive = Random.Range(0, 6.3f);
-    }
+   private void Start()
+   {
+      timeAlive = Random.Range(0, 6.3f);
+   }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        timeAlive += Time.deltaTime;
-        transform.position -= new Vector3(0, Mathf.Cos(timeAlive), 0) * amplitude;
-    }
+   // Update is called once per frame
+   void FixedUpdate()
+   {
+      timeAlive += Time.deltaTime;
+      transform.position -= new Vector3(0, Mathf.Cos(timeAlive / 3), 0) * amplitude;
+   }
 }
