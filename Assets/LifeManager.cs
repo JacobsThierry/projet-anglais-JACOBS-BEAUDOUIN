@@ -47,8 +47,13 @@ public class LifeManager : MonoBehaviour
    {
       life--;
       Destroy(transform.GetChild(0).gameObject);
-      gameOver.SetActive(true);
-      Destroy(player);
+
+
+      if (life <= 0)
+      {
+         gameOver.SetActive(true);
+         Destroy(player);
+      }
 
 
    }

@@ -1737,6 +1737,34 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 62.55
       objectReference: {fileID: 0}
+    - target: {fileID: 7393309318811439238, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393309318811439238, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393309318811439238, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 515453332}
+    - target: {fileID: 7393309318811439238, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393309318811439238, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: onClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393309318811439238, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: mainMenuButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393309318811439238, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8071319192334745308, guid: bee7fbf243e0917448efddecb5339475, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1807,7 +1835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8071319192334745308, guid: bee7fbf243e0917448efddecb5339475, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -127
+      value: -333.6
       objectReference: {fileID: 0}
     - target: {fileID: 8071319192334745308, guid: bee7fbf243e0917448efddecb5339475, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1835,6 +1863,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515453329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d00b5a33afc0c44b20d169a436fa2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &515453331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2179275398256794078, guid: bee7fbf243e0917448efddecb5339475, type: 3}
+  m_PrefabInstance: {fileID: 515453328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &515453332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515453331}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49d00b5a33afc0c44b20d169a436fa2e, type: 3}
@@ -6397,6 +6442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1868046029}
   - component: {fileID: 1868046030}
+  - component: {fileID: 1868046031}
   m_Layer: 0
   m_Name: WallW
   m_TagString: Untagged
@@ -6445,6 +6491,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 18}
   m_EdgeRadius: 0
+--- !u!114 &1868046031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868046028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f68222e193bda7479007b1bb9f77fdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1897034705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7639,15 +7697,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3021630676681520127, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
       propertyPath: m_text
-      value: '"The earth has been destroyed" - The villain win'
+      value: '"Score : " + scoreManager.score + " \n The hero is flying through the
+        sky, trying to intercept the meteors before they hit the earth. He is typing
+        the words as fast as possible, but some of the meteors are getting through.\n
+        The hero is getting tired and the villain is laughing maniacally as the earth
+        starts to shatter. \n Just then, a group of heroes arrives to help. With
+        their combined effort, they are able to destroy all the remaining meteors
+        and save the earth."'
       objectReference: {fileID: 0}
     - target: {fileID: 3021630676681520127, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
       propertyPath: m_fontSize
-      value: 46.2
+      value: 39.3
       objectReference: {fileID: 0}
     - target: {fileID: 3021630676681520127, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
       propertyPath: m_fontSizeMax
-      value: 46.2
+      value: 39.3
       objectReference: {fileID: 0}
     - target: {fileID: 4521160202562615939, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
       propertyPath: m_Pivot.x
@@ -7739,7 +7803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7524709459662865143, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
