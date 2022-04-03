@@ -66,9 +66,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Definition n\xB00\nmarked by a well-developed musculature\n\nDefinition
-    n\xB01\nhaving muscles capable of exerting great physical force\n\nDefinition
-    n\xB02\nmarked by or uttered with forcefulness\n\n"
+  m_text: "Definition n\xB00\nfailure or refusal to do what someone has told or asked
+    you to do; lack of cooperation\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -279,7 +278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: muscularities
+  m_text: noncooperators
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
