@@ -7,7 +7,6 @@ public class mechantSpawnerSynonymHardController : MonoBehaviour
     public Transform canvas;
     public GameObject popup;
 
-    public GameObject popUp;
     private static List<string> accents = new List<string>{"Irish", "Jamaica", "scot", "general", "Yorkshire", "rp", "us", "south"};
 
     private enum accent
@@ -62,16 +61,16 @@ public class mechantSpawnerSynonymHardController : MonoBehaviour
             PauseGame();
             synonymeHard = wordManager.getSynonymesHard();
             Transform canvas = GameObject.Find("Canvas").transform;
-            Instantiate(popup, canvas);
-            popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = synonymeHard.mot;
+            GameObject popup2 = Instantiate(popup, canvas);
+            popup2.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = synonymeHard.mot;
 
             string definition = "";
             for(int i= 0; i < synonymeHard.json.definition.Count; i++)
             {
                 definition +="Definition n°" + i.ToString() + "\n"+ synonymeHard.json.definition[i] + "\n\n";
             }
-            popup.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = definition;
-            popup.SetActive(true);
+            popup2.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = definition;
+            popup2.SetActive(true);
             Debug.Log(synonymeHard.mot);
         }
         GameObject mcht = Instantiate(mechantSynonymeHard);

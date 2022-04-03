@@ -65,16 +65,16 @@ public class mechantSpawnerSynonymEasyController : MonoBehaviour
             PauseGame();
             synonymeEasy = wordManager.getSynonymesEasy();
             Transform canvas = GameObject.Find("Canvas").transform;
-            Instantiate(popup, canvas);
-            popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = synonymeEasy.mot;
+            GameObject popup2 = Instantiate(popup, canvas);
+            popup2.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = synonymeEasy.mot;
 
             string definition = "";
             for(int i= 0; i < synonymeEasy.json.definition.Count; i++)
             {
                 definition +="Definition n°" + i.ToString() + "\n"+ synonymeEasy.json.definition[i] + "\n\n";
             }
-            popup.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = definition;
-            popup.SetActive(true);
+            popup2.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = definition;
+            popup2.SetActive(true);
             Debug.Log(synonymeEasy.mot);
         }
 

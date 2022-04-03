@@ -34,10 +34,10 @@ public class MechantWordControllerHard : MechantWordController
     private void showPopup(){
         string def = wordManager.getDefHard(word);
         Transform canvas = GameObject.Find("Canvas").transform;
-        Instantiate(popup, canvas);
-        popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = this.word;
-        popup.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = def;
-        popup.SetActive(true);
+        GameObject popup2 = Instantiate(popup, canvas);
+        popup2.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = this.word;
+        popup2.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = def;
+        popup2.SetActive(true);
         Debug.Log(this.word);
     }
 }
