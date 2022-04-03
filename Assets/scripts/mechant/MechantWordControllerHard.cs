@@ -37,7 +37,10 @@ public class MechantWordControllerHard : MechantWordController
         else{
             gameIsPaused = true;
             string def = wordManager.getDefHard(word);
+            textMeshPro.richText = true;
+            def += "<color=black>";
             textMeshPro.text = def;
+            def += "</color>";
             PauseGame();
         }
     }

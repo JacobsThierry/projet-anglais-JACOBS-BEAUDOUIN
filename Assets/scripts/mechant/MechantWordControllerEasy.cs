@@ -38,7 +38,10 @@ public class MechantWordControllerEasy : MechantWordController
         else{
             gameIsPaused = true;
             string def = wordManager.getDefEasy(word);
+            textMeshPro.richText = true;
+            def += "<color=black>";
             textMeshPro.text = def;
+            def += "</color>";
             PauseGame();
         }
     }
