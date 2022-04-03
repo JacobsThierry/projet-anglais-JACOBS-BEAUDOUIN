@@ -2271,6 +2271,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7524709459662865143, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557992950056607030, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8081896016700393750, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
@@ -2460,14 +2464,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameModes:
-  - gameModeName: az
+  - gameModeName: Standard (Easy)
+    spawner: {fileID: 398866649610565863, guid: 8401bb7de7bca4d60bcccbfc93402928, type: 3}
+    timer: 0
+  - gameModeName: Standard (Hard)
+    spawner: {fileID: 398866649610565863, guid: bc34b785dd35b444da73d887d43ed53d, type: 3}
+    timer: 0
+  - gameModeName: Synonyms (Easy)
+    spawner: {fileID: 398866649610565863, guid: 52f3cf236dff54b25ab1954c48e1dc16, type: 3}
+    timer: 0
+  - gameModeName: Synonyms (Hard)
+    spawner: {fileID: 398866649610565863, guid: c7970b8248be049e5a38e4874cfcfec9, type: 3}
+    timer: 0
+  - gameModeName: Audio (Easy)
     spawner: {fileID: 398866649610565863, guid: c57575bbce96e7240a424e756864ef02, type: 3}
     timer: 0
-  - gameModeName: az
-    spawner: {fileID: 398866649610565863, guid: c57575bbce96e7240a424e756864ef02, type: 3}
+  - gameModeName: Audio (Hard)
+    spawner: {fileID: 398866649610565863, guid: 7a61f32b0726a47ea8e2ac24bc99c882, type: 3}
     timer: 0
-  - gameModeName: aaa
-    spawner: {fileID: 398866649610565863, guid: c57575bbce96e7240a424e756864ef02, type: 3}
+  - gameModeName: Find the accent !
+    spawner: {fileID: 398866649610565863, guid: 1b89c7436a23f41b38ab3beddf853951, type: 3}
     timer: 0
   prefabButton: {fileID: 2179275398256794078, guid: bee7fbf243e0917448efddecb5339475, type: 3}
 --- !u!1 &2085952242

@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398866649610565861}
-  - component: {fileID: 398866649610565860}
+  - component: {fileID: 7750159356982934721}
   m_Layer: 0
-  m_Name: MechanSpawner
+  m_Name: MechantSpawnerStandardHardController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &398866649610565860
+--- !u!114 &7750159356982934721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,19 +41,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 398866649610565863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b71dff219dfe1b439cedc02190b6c97, type: 3}
+  m_Script: {fileID: 11500000, guid: 59fd9cc67b54e4527957483041d8f6a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 0}
-  popup: {fileID: 7524709459662865143, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
-  mechant: {fileID: 2491730551398887118, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
-  mechantEasy: {fileID: 2491730551398887118, guid: e4bb530135b0546b2976bc19db97c48a, type: 3}
+  popup: {fileID: 0}
+  popUp: {fileID: 0}
   mechantHard: {fileID: 2491730551398887118, guid: 8995f133ae2d541e7855dd8b016324b9, type: 3}
-  mechantSynonymeEasy: {fileID: 2491730551398887118, guid: 0b34da53225634e6c8124d200136c4f4, type: 3}
-  mechantSynonymeHard: {fileID: 2491730551398887118, guid: 2023c77ff0e0841a7b6e70fb2849c0c6, type: 3}
-  mechantQuestion: {fileID: 1905078896928975625, guid: edf1046d5ef167741a3cf7c29dd7671f, type: 3}
-  mechantAudio: {fileID: 1905078896928975625, guid: 6416df6c4b4e6426c99a94e410440e5b, type: 3}
-  mechantAudioHard: {fileID: 1905078896928975625, guid: 1c25bdb83c0164aa590b4f0b9e6cfcad, type: 3}
-  mechantAudioFindAccent: {fileID: 1905078896928975625, guid: a26846f7c44ab4d69bf4ce868f6c2aeb, type: 3}
-  timer: 5
-  spawnRange: 3.5
+  timer: 0
+  spawnRange: 0
