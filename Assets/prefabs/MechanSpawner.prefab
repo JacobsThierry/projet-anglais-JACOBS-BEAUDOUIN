@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b71dff219dfe1b439cedc02190b6c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  popup: {fileID: 7524709459662865143, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
   mechant: {fileID: 2491730551398887118, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
   mechantEasy: {fileID: 2491730551398887118, guid: e4bb530135b0546b2976bc19db97c48a, type: 3}
   mechantHard: {fileID: 2491730551398887118, guid: 8995f133ae2d541e7855dd8b016324b9, type: 3}

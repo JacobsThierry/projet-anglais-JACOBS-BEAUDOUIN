@@ -13,6 +13,7 @@ public class ClosePopupButtonController : MonoBehaviour
       GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() =>
       {
          popup.SetActive(false);
+         ResumeGame();
       });
    }
 
@@ -21,4 +22,14 @@ public class ClosePopupButtonController : MonoBehaviour
    {
 
    }
+
+   public void PauseGame ()
+    {
+        Time.timeScale = 0;
+    }
+
+   public void ResumeGame ()
+    {
+        Time.timeScale = 1;
+    }
 }

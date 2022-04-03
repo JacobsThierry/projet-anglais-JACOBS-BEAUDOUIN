@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class mechantSpawnerController : MonoBehaviour
 {
+    public Transform canvas;
+    public GameObject popup;
 
+    public GameObject popUp;
     private static List<string> accents = new List<string>{"Irish", "Jamaica", "scot", "general", "Yorkshire", "rp", "us", "south"};
 
     private enum accent
@@ -80,7 +83,7 @@ public class mechantSpawnerController : MonoBehaviour
             //     mcht = audioFindAccentMode();
             // }
 
-            mcht = MechantHard();
+            mcht = SynonymesHard();
 
             mcht.transform.position = transform.position + new Vector3(0, Random.Range(-spawnRange, spawnRange), 0);
         }
@@ -107,7 +110,19 @@ public class mechantSpawnerController : MonoBehaviour
     {
         if(synonymeEasy == null)
         {
+            PauseGame();
             synonymeEasy = wordManager.getSynonymesEasy();
+            Transform canvas = GameObject.Find("Canvas").transform;
+            GameObject popUp = Instantiate(popup, canvas);
+            popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = synonymeEasy.mot;
+
+            string definition = "";
+            for(int i= 0; i < synonymeEasy.json.definition.Count; i++)
+            {
+                definition +="Definition n°" + i.ToString() + "\n"+ synonymeEasy.json.definition[i] + "\n\n";
+            }
+            popup.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = definition;
+            popup.SetActive(true);
             Debug.Log(synonymeEasy.mot);
         }
 
@@ -120,7 +135,19 @@ public class mechantSpawnerController : MonoBehaviour
     {
         if(synonymeHard == null)
         {
+            PauseGame();
             synonymeHard = wordManager.getSynonymesHard();
+            Transform canvas = GameObject.Find("Canvas").transform;
+            GameObject popUp = Instantiate(popup, canvas);
+            popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = synonymeHard.mot;
+
+            string definition = "";
+            for(int i= 0; i < synonymeHard.json.definition.Count; i++)
+            {
+                definition +="Definition n°" + i.ToString() + "\n"+ synonymeHard.json.definition[i] + "\n\n";
+            }
+            popup.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = definition;
+            popup.SetActive(true);
             Debug.Log(synonymeHard.mot);
         }
         GameObject mcht = Instantiate(mechantSynonymeEasy);
@@ -177,5 +204,15 @@ public class mechantSpawnerController : MonoBehaviour
         int randomIndex = UnityEngine.Random.Range(0, words.Count);
         mcht.GetComponent<MechantAudioHardController>().NewStart(words[randomIndex]);
         return mcht;
+    }
+
+    public void PauseGame ()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame ()
+    {
+        Time.timeScale = 1;
     }
 }

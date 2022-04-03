@@ -55,6 +55,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MechantAudio
       objectReference: {fileID: 0}
+    - target: {fileID: 2491730551589672899, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
+      propertyPath: m_isRichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491730551589672899, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491730551589672899, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491730551589672899, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491730551589672899, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491730551589672899, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2491730551589672896, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}
     - {fileID: 143764799183414294, guid: 8b68b5082ad5de840b79d0ab7f62bad3, type: 3}

@@ -47,10 +47,13 @@ public class MechantWordController : MonoBehaviour
 
         textMeshPro.text += "</color>";
 
+        textMeshPro.text += "<color=black>";
+
         for (int i = index; i < word.Length; i++)
         {
             textMeshPro.text += word[i];
         }
+        textMeshPro.text += "</color>";
 
     }
 
