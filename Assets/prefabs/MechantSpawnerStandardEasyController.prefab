@@ -48,5 +48,5 @@ MonoBehaviour:
   popup: {fileID: 0}
   popUp: {fileID: 0}
   mechantEasy: {fileID: 2491730551398887118, guid: e4bb530135b0546b2976bc19db97c48a, type: 3}
-  timer: 0
-  spawnRange: 0
+  timer: 5
+  spawnRange: 3.5

@@ -48,5 +48,5 @@ MonoBehaviour:
   popup: {fileID: 0}
   popUp: {fileID: 0}
   mechantAudioHard: {fileID: 1905078896928975625, guid: 1c25bdb83c0164aa590b4f0b9e6cfcad, type: 3}
-  timer: 0
-  spawnRange: 0
+  timer: 5
+  spawnRange: 3.5

@@ -48,5 +48,5 @@ MonoBehaviour:
   popup: {fileID: 7524709459662865143, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
   popUp: {fileID: 0}
   mechantSynonymeHard: {fileID: 2491730551398887118, guid: 2023c77ff0e0841a7b6e70fb2849c0c6, type: 3}
-  timer: 0
-  spawnRange: 0
+  timer: 5
+  spawnRange: 3.5

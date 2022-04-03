@@ -48,5 +48,5 @@ MonoBehaviour:
   popup: {fileID: 0}
   popUp: {fileID: 0}
   mechantAudioFindAccent: {fileID: 1905078896928975625, guid: a26846f7c44ab4d69bf4ce868f6c2aeb, type: 3}
-  timer: 0
-  spawnRange: 0
+  timer: 5
+  spawnRange: 3.5
