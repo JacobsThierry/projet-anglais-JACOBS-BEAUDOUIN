@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 0}
-  popup: {fileID: 0}
+  popup: {fileID: 7524709459662865143, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
   popUp: {fileID: 0}
   mechantEasy: {fileID: 2491730551398887118, guid: e4bb530135b0546b2976bc19db97c48a, type: 3}
   timer: 5

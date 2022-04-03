@@ -6,8 +6,7 @@ using QuickPool;
 public class MechantWordControllerHard : MechantWordController
 {
 
-    private bool gameIsPaused = false;
-
+    public GameObject popup;
 
     // Start is called before the first frame update
     void Start()
@@ -29,19 +28,16 @@ public class MechantWordControllerHard : MechantWordController
     }
 
     public void OnMouseDown(){
-        if(gameIsPaused){
-            gameIsPaused = false;
-            updateGraphics();
-            ResumeGame();
-        }
-        else{
-            gameIsPaused = true;
-            string def = wordManager.getDefHard(word);
-            textMeshPro.richText = true;
-            def += "<color=black>";
-            textMeshPro.text = def;
-            def += "</color>";
-            PauseGame();
-        }
+        PauseGame();
+        showPopup();
+    }
+    private void showPopup(){
+        string def = wordManager.getDefHard(word);
+        Transform canvas = GameObject.Find("Canvas").transform;
+        Instantiate(popup, canvas);
+        popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = this.word;
+        popup.transform.GetChild(1).GetChild(1).GetComponent<TMPro.TextMeshProUGUI>().text = def;
+        popup.SetActive(true);
+        Debug.Log(this.word);
     }
 }

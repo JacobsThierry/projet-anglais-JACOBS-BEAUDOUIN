@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2170049321966099724}
   - component: {fileID: 6995574583236200200}
   - component: {fileID: -175391281422849079}
-  - component: {fileID: 2768855358579390904}
+  - component: {fileID: -1158138332000975344}
   m_Layer: 0
   m_Name: MechantMotEasy
   m_TagString: Untagged
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 3503424209452035452, guid: 2242a95c80aed7145bcd7948772a282e, type: 3}
---- !u!114 &2768855358579390904
+--- !u!114 &-1158138332000975344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,6 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: 
+  popup: {fileID: 7524709459662865143, guid: 4ca4a65b058f6fa4096ae922d4e9cd6f, type: 3}
 --- !u!1 &2491730551589672902
 GameObject:
   m_ObjectHideFlags: 0
