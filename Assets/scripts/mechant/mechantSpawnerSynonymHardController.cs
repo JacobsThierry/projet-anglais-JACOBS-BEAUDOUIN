@@ -74,7 +74,7 @@ public class mechantSpawnerSynonymHardController : MonoBehaviour
             Debug.Log(synonymeHard.mot);
         }
         GameObject mcht = Instantiate(mechantSynonymeHard);
-        mcht.GetComponent<MechantSynonymeEasyController>().NewStart(synonymeHard);
+        mcht.GetComponent<MechantSynonymeHardController>().NewStart(synonymeHard);
         return mcht;
     }
 
