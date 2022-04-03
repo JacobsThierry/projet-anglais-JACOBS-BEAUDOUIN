@@ -65,7 +65,7 @@ public class mechantSpawnerSynonymEasyController : MonoBehaviour
             PauseGame();
             synonymeEasy = wordManager.getSynonymesEasy();
             Transform canvas = GameObject.Find("Canvas").transform;
-            GameObject popUp = Instantiate(popup, canvas);
+            Instantiate(popup, canvas);
             popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = synonymeEasy.mot;
 
             string definition = "";

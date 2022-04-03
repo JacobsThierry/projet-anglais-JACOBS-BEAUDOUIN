@@ -34,7 +34,8 @@ public class MechantWordControllerEasy : MechantWordController
         showPopup();
     }
     private void showPopup(){
-        string def = wordManager.getDefEasy(word);
+        Debug.Log(this.word);
+        string def = wordManager.getDefEasy(this.word);
         Transform canvas = GameObject.Find("Canvas").transform;
         Instantiate(popup, canvas);
         popup.transform.GetChild(1).GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = this.word;

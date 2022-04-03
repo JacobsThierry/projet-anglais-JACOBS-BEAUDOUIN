@@ -76,12 +76,14 @@ public class MechantAudioHardController : MechantWordController
 
         textMeshPro.text += "</color>";
         
-
+        textMeshPro.text += "<color=black>";
 
         for (int i = index; i < word.Length; i++)
         {
             textMeshPro.text += "_ ";
         }
+
+         textMeshPro.text += "</color>";
 
     }
 
