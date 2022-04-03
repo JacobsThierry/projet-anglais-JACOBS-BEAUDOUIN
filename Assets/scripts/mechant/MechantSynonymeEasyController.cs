@@ -5,23 +5,22 @@ using System;
 
 public class MechantSynonymeEasyController : MechantWordController
 {
-    public string question;
-
-
 
     void Start()
     {
+ 
+        textMeshPro = GetComponent<TMPro.TextMeshPro>();
 
-        Synonymes synonymes = wordManager.getSynonymesEasy();
+        updateGraphics();
+    }
+
+    public void NewStart(Synonymes synonymes){
         //Selection aléatoire
         List<List<String>> liste = synonymes.json.synonyms;
         int rand = UnityEngine.Random.Range(0, liste.Count);
         int rand2 = UnityEngine.Random.Range(0, liste[rand].Count);
 
         this.word = liste[rand][rand2];
-        textMeshPro = GetComponent<TMPro.TextMeshPro>();
-
-        updateGraphics();
     }
 
 }

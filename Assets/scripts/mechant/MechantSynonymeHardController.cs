@@ -10,7 +10,12 @@ public class MechantSynonymeHardController : MechantWordController
     void Start()
     {
 
-        Synonymes synonymes = wordManager.getSynonymesHard();
+        textMeshPro = GetComponent<TMPro.TextMeshPro>();
+
+        updateGraphics();
+    }
+
+    public void NewStart(Synonymes synonymes){
         //Selection aléatoire
         List<List<String>> liste = synonymes.json.synonyms;
         int rand = UnityEngine.Random.Range(0, liste.Count);
@@ -18,9 +23,6 @@ public class MechantSynonymeHardController : MechantWordController
 
 
         this.word = liste[rand][rand2];
-        textMeshPro = GetComponent<TMPro.TextMeshPro>();
-
-        updateGraphics();
     }
 
 

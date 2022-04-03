@@ -43,10 +43,24 @@ public class wordManager
         return synonymes1;
     }
 
+    public static Synonymes getSynonymesEasy(string word)
+    {
+        JSONObject json = jsonLoader.synonymes[word];
+        Synonymes synonymes1 = new Synonymes(word,json);
+        return synonymes1;
+    }
+
     public static Synonymes getSynonymesHard()
     {
         string word = jsonLoader.getRandomHardWords();
-        JSONObject json = jsonLoader.synonymes[word];
+        JSONObject json = jsonLoader.synonymesHard[word];
+        Synonymes synonymes1 = new Synonymes(word,json);
+        return synonymes1;
+    }
+
+    public static Synonymes getSynonymesHard(string word)
+    {
+        JSONObject json = jsonLoader.synonymesHard[word];
         Synonymes synonymes1 = new Synonymes(word,json);
         return synonymes1;
     }
