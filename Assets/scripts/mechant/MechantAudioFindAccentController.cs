@@ -26,7 +26,7 @@ public class MechantAudioFindAccentController : MechantWordController
 
     void Start()
     {
-        this.question = "Sound";
+        // this.question = "Sound";
         textMeshPro = GetComponent<TMPro.TextMeshPro>();
         updateGraphics();
     }
